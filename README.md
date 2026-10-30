@@ -65,3 +65,4 @@ The server will boot on `https://localhost:3000` (or `https://<LAN-IP>:3000`).
 2. Select the `Assets/PathFinderAR.unity` scene.
 3. Switch platform to **Android**.
 4. Build and run to an ARCore-compatible Android phone connected via USB.
+

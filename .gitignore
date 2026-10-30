@@ -29,8 +29,8 @@ My project/
 **/.gradle/
 
 # Android build artifacts
-*.apk
 *.aab
+!PathfinderAR/PathFinderAR/PathFinderAR.apk
 **/PathfinderAR_BurstDebugInformation_DoNotShip/
 
 # Node / Web App generated folders
@@ -51,3 +51,4 @@ cert.crt
 # Build outputs & caches
 .cache/
 .parcel-cache/
+

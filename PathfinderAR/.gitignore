@@ -81,6 +81,7 @@ mono_crash.*
 # Builds
 *.apk
 *.aab
+!PathFinderAR/PathFinderAR.apk
 *.unitypackage
 *.unitypackage.meta
 *.app
