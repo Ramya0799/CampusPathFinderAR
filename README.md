@@ -22,6 +22,7 @@ PathFinder/
 │   │   ├── Scripts/PathFinder/ # PFCampusNavigator, PFVoice, NavMesh routing
 │   │   ├── Resources/          # Campus navigation anchors & data JSON
 │   │   └── Plugins/Android/    # AndroidManifest (GameActivity & ARCore required)
+│   ├── PathFinderAR/           # Built Android APK (PathFinderAR.apk)
 │   └── ProjectSettings/        # OpenXR, AR Foundation, and Android settings
 │
 ├── ArchitecturalAssets/        # Architectural floor plans and elevation drawings
