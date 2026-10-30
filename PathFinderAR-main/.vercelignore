@@ -1,0 +1,8 @@
+node_modules
+.pnpm-store
+.git
+.manus-logs
+dist
+cert.key
+cert.crt
+*.log

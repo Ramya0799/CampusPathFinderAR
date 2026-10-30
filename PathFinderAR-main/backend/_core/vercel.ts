@@ -1,11 +1,11 @@
 import "dotenv/config";
 import express from "express";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
-import { registerOAuthRoutes } from "../backend/_core/oauth";
-import { registerStorageProxy } from "../backend/_core/storageProxy";
-import { appRouter } from "../backend/routers";
-import { createContext } from "../backend/_core/context";
-import { registerPathfinderRestRoutes } from "../backend/restRoutes";
+import { registerOAuthRoutes } from "./oauth";
+import { registerStorageProxy } from "./storageProxy";
+import { appRouter } from "../routers";
+import { createContext } from "./context";
+import { registerPathfinderRestRoutes } from "../restRoutes";
 
 const app = express();
 
