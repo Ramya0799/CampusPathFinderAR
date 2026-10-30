@@ -1,0 +1,11116 @@
+[
+ {
+  "name": "NAV_AB_FC_AB_MainStair_Up",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -7.825,
+   102.9
+  ],
+  "rl": 67.16,
+  "props": {
+   "stairId": "AB_MainStair",
+   "connectsTo": "NAV_AB_GF_AB_MainStair_Down"
+  },
+  "model": [
+   5.675,
+   36.95,
+   7.16
+  ],
+  "unity_expected": [
+   5.675,
+   7.16,
+   36.95
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_AB_MainStair_Down",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -9.675,
+   102.9
+  ],
+  "rl": 71.73,
+  "props": {
+   "stairId": "AB_MainStair",
+   "connectsTo": "NAV_AB_FC_AB_MainStair_Up"
+  },
+  "model": [
+   3.825,
+   36.95,
+   11.73
+  ],
+  "unity_expected": [
+   3.825,
+   11.73,
+   36.95
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_AB_MainStair_Up",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -7.825,
+   102.9
+  ],
+  "rl": 71.73,
+  "props": {
+   "stairId": "AB_MainStair",
+   "connectsTo": "NAV_AB_FF_AB_MainStair_Down"
+  },
+  "model": [
+   5.675,
+   36.95,
+   11.73
+  ],
+  "unity_expected": [
+   5.675,
+   11.73,
+   36.95
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_AB_MainStair_Down",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -9.675,
+   102.9
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "AB_MainStair",
+   "connectsTo": "NAV_AB_GF_AB_MainStair_Up"
+  },
+  "model": [
+   3.825,
+   36.95,
+   15.54
+  ],
+  "unity_expected": [
+   3.825,
+   15.54,
+   36.95
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_AB_MainStair_Up",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -7.825,
+   102.9
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "AB_MainStair",
+   "connectsTo": "NAV_AB_2F_AB_MainStair_Down"
+  },
+  "model": [
+   5.675,
+   36.95,
+   15.54
+  ],
+  "unity_expected": [
+   5.675,
+   15.54,
+   36.95
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_AB_MainStair_Down",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -9.675,
+   102.9
+  ],
+  "rl": 79.65,
+  "props": {
+   "stairId": "AB_MainStair",
+   "connectsTo": "NAV_AB_FF_AB_MainStair_Up"
+  },
+  "model": [
+   3.825,
+   36.95,
+   19.65
+  ],
+  "unity_expected": [
+   3.825,
+   19.65,
+   36.95
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_AB_WestStair_Up",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -23.275000000000002,
+   81.80000000000001
+  ],
+  "rl": 71.73,
+  "props": {
+   "stairId": "AB_WestStair",
+   "connectsTo": "NAV_AB_FF_AB_WestStair_Down"
+  },
+  "model": [
+   -9.775,
+   15.85,
+   11.73
+  ],
+  "unity_expected": [
+   -9.775,
+   11.73,
+   15.85
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_AB_WestStair_Down",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -24.925,
+   81.80000000000001
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "AB_WestStair",
+   "connectsTo": "NAV_AB_GF_AB_WestStair_Up"
+  },
+  "model": [
+   -11.425,
+   15.85,
+   15.54
+  ],
+  "unity_expected": [
+   -11.425,
+   15.54,
+   15.85
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_AB_WestStair_Up",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -23.275000000000002,
+   81.80000000000001
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "AB_WestStair",
+   "connectsTo": "NAV_AB_2F_AB_WestStair_Down"
+  },
+  "model": [
+   -9.775,
+   15.85,
+   15.54
+  ],
+  "unity_expected": [
+   -9.775,
+   15.54,
+   15.85
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_AB_WestStair_Down",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "stair",
+  "site": [
+   -24.925,
+   81.80000000000001
+  ],
+  "rl": 79.65,
+  "props": {
+   "stairId": "AB_WestStair",
+   "connectsTo": "NAV_AB_FF_AB_WestStair_Up"
+  },
+  "model": [
+   -11.425,
+   15.85,
+   19.65
+  ],
+  "unity_expected": [
+   -11.425,
+   19.65,
+   15.85
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_TB_CentralStair_Up",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -8.183039063281013,
+   44.745702982069986
+  ],
+  "rl": 60.61,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_LG02_TB_CentralStair_Down"
+  },
+  "model": [
+   5.317,
+   -21.2043,
+   0.61
+  ],
+  "unity_expected": [
+   5.317,
+   0.61,
+   -21.2043
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_TB_CentralStair_Down",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -14.696960936718986,
+   52.13429701793001
+  ],
+  "rl": 64.26,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_LG03_TB_CentralStair_Up"
+  },
+  "model": [
+   -1.197,
+   -13.8157,
+   4.26
+  ],
+  "unity_expected": [
+   -1.197,
+   4.26,
+   -13.8157
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_TB_CentralStair_Up",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -8.183039063281013,
+   44.745702982069986
+  ],
+  "rl": 64.26,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_LG01_TB_CentralStair_Down"
+  },
+  "model": [
+   5.317,
+   -21.2043,
+   4.26
+  ],
+  "unity_expected": [
+   5.317,
+   4.26,
+   -21.2043
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_TB_CentralStair_Down",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -14.696960936718986,
+   52.13429701793001
+  ],
+  "rl": 67.92,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_LG02_TB_CentralStair_Up"
+  },
+  "model": [
+   -1.197,
+   -13.8157,
+   7.92
+  ],
+  "unity_expected": [
+   -1.197,
+   7.92,
+   -13.8157
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_TB_CentralStair_Up",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -8.183039063281013,
+   44.745702982069986
+  ],
+  "rl": 67.92,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_GF_TB_CentralStair_Down"
+  },
+  "model": [
+   5.317,
+   -21.2043,
+   7.92
+  ],
+  "unity_expected": [
+   5.317,
+   7.92,
+   -21.2043
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_TB_CentralStair_Down",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -14.696960936718986,
+   52.13429701793001
+  ],
+  "rl": 71.73,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_LG01_TB_CentralStair_Up"
+  },
+  "model": [
+   -1.197,
+   -13.8157,
+   11.73
+  ],
+  "unity_expected": [
+   -1.197,
+   11.73,
+   -13.8157
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_TB_CentralStair_Up",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -8.183039063281013,
+   44.745702982069986
+  ],
+  "rl": 71.73,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_1F_TB_CentralStair_Down"
+  },
+  "model": [
+   5.317,
+   -21.2043,
+   11.73
+  ],
+  "unity_expected": [
+   5.317,
+   11.73,
+   -21.2043
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_TB_CentralStair_Down",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -14.696960936718986,
+   52.13429701793001
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_GF_TB_CentralStair_Up"
+  },
+  "model": [
+   -1.197,
+   -13.8157,
+   15.54
+  ],
+  "unity_expected": [
+   -1.197,
+   15.54,
+   -13.8157
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_TB_CentralStair_Up",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -8.183039063281013,
+   44.745702982069986
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_2F_TB_CentralStair_Down"
+  },
+  "model": [
+   5.317,
+   -21.2043,
+   15.54
+  ],
+  "unity_expected": [
+   5.317,
+   15.54,
+   -21.2043
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_TB_CentralStair_Down",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -14.696960936718986,
+   52.13429701793001
+  ],
+  "rl": 79.35,
+  "props": {
+   "stairId": "TB_CentralStair",
+   "connectsTo": "NAV_TB_1F_TB_CentralStair_Up"
+  },
+  "model": [
+   -1.197,
+   -13.8157,
+   19.35
+  ],
+  "unity_expected": [
+   -1.197,
+   19.35,
+   -13.8157
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_TB_WestStair_Up",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -31.79,
+   35.94
+  ],
+  "rl": 60.61,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_LG02_TB_WestStair_Down"
+  },
+  "model": [
+   -18.29,
+   -30.01,
+   0.61
+  ],
+  "unity_expected": [
+   -18.29,
+   0.61,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_TB_WestStair_Down",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -33.49,
+   35.94
+  ],
+  "rl": 64.26,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_LG03_TB_WestStair_Up"
+  },
+  "model": [
+   -19.99,
+   -30.01,
+   4.26
+  ],
+  "unity_expected": [
+   -19.99,
+   4.26,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_TB_WestStair_Up",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -31.79,
+   35.94
+  ],
+  "rl": 64.26,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_LG01_TB_WestStair_Down"
+  },
+  "model": [
+   -18.29,
+   -30.01,
+   4.26
+  ],
+  "unity_expected": [
+   -18.29,
+   4.26,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_TB_WestStair_Down",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -33.49,
+   35.94
+  ],
+  "rl": 67.92,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_LG02_TB_WestStair_Up"
+  },
+  "model": [
+   -19.99,
+   -30.01,
+   7.92
+  ],
+  "unity_expected": [
+   -19.99,
+   7.92,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_TB_WestStair_Up",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -31.79,
+   35.94
+  ],
+  "rl": 67.92,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_GF_TB_WestStair_Down"
+  },
+  "model": [
+   -18.29,
+   -30.01,
+   7.92
+  ],
+  "unity_expected": [
+   -18.29,
+   7.92,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_TB_WestStair_Down",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -33.49,
+   35.94
+  ],
+  "rl": 71.73,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_LG01_TB_WestStair_Up"
+  },
+  "model": [
+   -19.99,
+   -30.01,
+   11.73
+  ],
+  "unity_expected": [
+   -19.99,
+   11.73,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_TB_WestStair_Up",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -31.79,
+   35.94
+  ],
+  "rl": 71.73,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_1F_TB_WestStair_Down"
+  },
+  "model": [
+   -18.29,
+   -30.01,
+   11.73
+  ],
+  "unity_expected": [
+   -18.29,
+   11.73,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_TB_WestStair_Down",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -33.49,
+   35.94
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_GF_TB_WestStair_Up"
+  },
+  "model": [
+   -19.99,
+   -30.01,
+   15.54
+  ],
+  "unity_expected": [
+   -19.99,
+   15.54,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_TB_WestStair_Up",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -31.79,
+   35.94
+  ],
+  "rl": 75.54,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_2F_TB_WestStair_Down"
+  },
+  "model": [
+   -18.29,
+   -30.01,
+   15.54
+  ],
+  "unity_expected": [
+   -18.29,
+   15.54,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_TB_WestStair_Down",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "stair",
+  "site": [
+   -33.49,
+   35.94
+  ],
+  "rl": 79.35,
+  "props": {
+   "stairId": "TB_WestStair",
+   "connectsTo": "NAV_TB_1F_TB_WestStair_Up"
+  },
+  "model": [
+   -19.99,
+   -30.01,
+   19.35
+  ],
+  "unity_expected": [
+   -19.99,
+   19.35,
+   -30.01
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_Lift_1",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 60.61,
+  "props": {
+   "liftId": "TeachingBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   2.478,
+   -15.053,
+   0.61
+  ],
+  "unity_expected": [
+   2.478,
+   0.61,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_Lift_1",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 64.26,
+  "props": {
+   "liftId": "TeachingBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   2.478,
+   -15.053,
+   4.26
+  ],
+  "unity_expected": [
+   2.478,
+   4.26,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_Lift_1",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 67.92,
+  "props": {
+   "liftId": "TeachingBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   2.478,
+   -15.053,
+   7.92
+  ],
+  "unity_expected": [
+   2.478,
+   7.92,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_Lift_1",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 71.73,
+  "props": {
+   "liftId": "TeachingBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   2.478,
+   -15.053,
+   11.73
+  ],
+  "unity_expected": [
+   2.478,
+   11.73,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_Lift_1",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 75.54,
+  "props": {
+   "liftId": "TeachingBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   2.478,
+   -15.053,
+   15.54
+  ],
+  "unity_expected": [
+   2.478,
+   15.54,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_Lift_1",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 79.35,
+  "props": {
+   "liftId": "TeachingBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   2.478,
+   -15.053,
+   19.35
+  ],
+  "unity_expected": [
+   2.478,
+   19.35,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_Lift_2",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 60.61,
+  "props": {
+   "liftId": "TeachingBlock_Lift_2",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.247,
+   -16.821,
+   0.61
+  ],
+  "unity_expected": [
+   4.247,
+   0.61,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_Lift_2",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 64.26,
+  "props": {
+   "liftId": "TeachingBlock_Lift_2",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.247,
+   -16.821,
+   4.26
+  ],
+  "unity_expected": [
+   4.247,
+   4.26,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_Lift_2",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 67.92,
+  "props": {
+   "liftId": "TeachingBlock_Lift_2",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.247,
+   -16.821,
+   7.92
+  ],
+  "unity_expected": [
+   4.247,
+   7.92,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_Lift_2",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 71.73,
+  "props": {
+   "liftId": "TeachingBlock_Lift_2",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.247,
+   -16.821,
+   11.73
+  ],
+  "unity_expected": [
+   4.247,
+   11.73,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_Lift_2",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 75.54,
+  "props": {
+   "liftId": "TeachingBlock_Lift_2",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.247,
+   -16.821,
+   15.54
+  ],
+  "unity_expected": [
+   4.247,
+   15.54,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_Lift_2",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "lift",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 79.35,
+  "props": {
+   "liftId": "TeachingBlock_Lift_2",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.247,
+   -16.821,
+   19.35
+  ],
+  "unity_expected": [
+   4.247,
+   19.35,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_Lift_1",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "lift",
+  "site": [
+   -9.368,
+   102.44
+  ],
+  "rl": 67.16,
+  "props": {
+   "liftId": "AdministrativeBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.132,
+   36.49,
+   7.16
+  ],
+  "unity_expected": [
+   4.132,
+   7.16,
+   36.49
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_Lift_1",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "lift",
+  "site": [
+   -9.368,
+   102.44
+  ],
+  "rl": 71.73,
+  "props": {
+   "liftId": "AdministrativeBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.132,
+   36.49,
+   11.73
+  ],
+  "unity_expected": [
+   4.132,
+   11.73,
+   36.49
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_Lift_1",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "lift",
+  "site": [
+   -9.368,
+   102.44
+  ],
+  "rl": 75.54,
+  "props": {
+   "liftId": "AdministrativeBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.132,
+   36.49,
+   15.54
+  ],
+  "unity_expected": [
+   4.132,
+   15.54,
+   36.49
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_Lift_1",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "lift",
+  "site": [
+   -9.368,
+   102.44
+  ],
+  "rl": 79.65,
+  "props": {
+   "liftId": "AdministrativeBlock_Lift_1",
+   "carSize_m": [
+    2.184,
+    1.829
+   ]
+  },
+  "model": [
+   4.132,
+   36.49,
+   19.65
+  ],
+  "unity_expected": [
+   4.132,
+   19.65,
+   36.49
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_01_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -19.249,
+   54.476
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R01",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -5.749,
+   -11.474,
+   0.61
+  ],
+  "unity_expected": [
+   -5.749,
+   0.61,
+   -11.474
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_lobby_02_WEST_ENTRANCE_LOBBY",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -14.423,
+   26.728
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R02",
+   "roomName": "WEST ENTRANCE LOBBY",
+   "roomType": "lobby",
+   "zone": "TB_LG03_Zone_01_WEST_ENTRANCE_LOBBY"
+  },
+  "model": [
+   -0.923,
+   -39.222,
+   0.61
+  ],
+  "unity_expected": [
+   -0.923,
+   0.61,
+   -39.222
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_03_21_3_WIDE_CORRIDOR",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -30.327,
+   27.562
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R03",
+   "roomName": "21'3\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -16.827,
+   -38.388,
+   0.61
+  ],
+  "unity_expected": [
+   -16.827,
+   0.61,
+   -38.388
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_classroom_04_CLASS_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.78,
+   45.772
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R04",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG03_Zone_02_CLASS_ROOM"
+  },
+  "model": [
+   14.28,
+   -20.178,
+   0.61
+  ],
+  "unity_expected": [
+   14.28,
+   0.61,
+   -20.178
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_lift_05_LIFT",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R05",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": "TB_LG03_Zone_03_LIFT"
+  },
+  "model": [
+   2.478,
+   -15.053,
+   0.61
+  ],
+  "unity_expected": [
+   2.478,
+   0.61,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_lift_06_LIFT",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R06",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": "TB_LG03_Zone_04_LIFT"
+  },
+  "model": [
+   4.247,
+   -16.821,
+   0.61
+  ],
+  "unity_expected": [
+   4.247,
+   0.61,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_classroom_07_CLASS_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -31.302,
+   18.981
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R07",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG03_Zone_05_CLASS_ROOM"
+  },
+  "model": [
+   -17.802,
+   -46.969,
+   0.61
+  ],
+  "unity_expected": [
+   -17.802,
+   0.61,
+   -46.969
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_classroom_08_CLASS_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.079,
+   23.947
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R08",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG03_Zone_06_CLASS_ROOM"
+  },
+  "model": [
+   8.421,
+   -42.003,
+   0.61
+  ],
+  "unity_expected": [
+   8.421,
+   0.61,
+   -42.003
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_classroom_09_CLASS_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.452,
+   24.007
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R09",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG03_Zone_07_CLASS_ROOM"
+  },
+  "model": [
+   -24.952,
+   -41.943,
+   0.61
+  ],
+  "unity_expected": [
+   -24.952,
+   0.61,
+   -41.943
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_10_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -24.644,
+   44.921
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R10",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -11.144,
+   -21.029,
+   0.61
+  ],
+  "unity_expected": [
+   -11.144,
+   0.61,
+   -21.029
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_11_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.431,
+   37.788
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R11",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   8.069,
+   -28.162,
+   0.61
+  ],
+  "unity_expected": [
+   8.069,
+   0.61,
+   -28.162
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_12_23_0_WIDE_CORRIDOR",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -26.163,
+   38.131
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R12",
+   "roomName": "23'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -12.663,
+   -27.819,
+   0.61
+  ],
+  "unity_expected": [
+   -12.663,
+   0.61,
+   -27.819
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_staff_13_STAFF_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -30.21,
+   44.897
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R13",
+   "roomName": "STAFF ROOM",
+   "roomType": "staff",
+   "zone": "TB_LG03_Zone_08_STAFF_ROOM"
+  },
+  "model": [
+   -16.71,
+   -21.053,
+   0.61
+  ],
+  "unity_expected": [
+   -16.71,
+   0.61,
+   -21.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_14_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.021,
+   57.985
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R14",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_09_TOILET"
+  },
+  "model": [
+   -19.521,
+   -7.965,
+   0.61
+  ],
+  "unity_expected": [
+   -19.521,
+   0.61,
+   -7.965
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_staff_15_STAFF_HEAD",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -32.638,
+   43.592
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R15",
+   "roomName": "STAFF HEAD",
+   "roomType": "staff",
+   "zone": "TB_LG03_Zone_10_STAFF_HEAD"
+  },
+  "model": [
+   -19.138,
+   -22.358,
+   0.61
+  ],
+  "unity_expected": [
+   -19.138,
+   0.61,
+   -22.358
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_16_BOYS_WASH_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.954,
+   58.661
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R16",
+   "roomName": "BOYS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_11_BOYS_WASH_ROOM"
+  },
+  "model": [
+   15.454,
+   -7.289,
+   0.61
+  ],
+  "unity_expected": [
+   15.454,
+   0.61,
+   -7.289
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_17_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   5.35,
+   61.573
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R17",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_12_TOILET"
+  },
+  "model": [
+   18.85,
+   -4.377,
+   0.61
+  ],
+  "unity_expected": [
+   18.85,
+   0.61,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_18_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   3.918,
+   61.573
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R18",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_13_TOILET"
+  },
+  "model": [
+   17.418,
+   -4.377,
+   0.61
+  ],
+  "unity_expected": [
+   17.418,
+   0.61,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_19_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   2.647,
+   61.573
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R19",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_14_TOILET"
+  },
+  "model": [
+   16.147,
+   -4.377,
+   0.61
+  ],
+  "unity_expected": [
+   16.147,
+   0.61,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_20_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.167,
+   61.573
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R20",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_15_TOILET"
+  },
+  "model": [
+   14.667,
+   -4.377,
+   0.61
+  ],
+  "unity_expected": [
+   14.667,
+   0.61,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_21_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -0.158,
+   61.573
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R21",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_16_TOILET"
+  },
+  "model": [
+   13.342,
+   -4.377,
+   0.61
+  ],
+  "unity_expected": [
+   13.342,
+   0.61,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_22_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -1.528,
+   61.573
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R22",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_17_TOILET"
+  },
+  "model": [
+   11.972,
+   -4.377,
+   0.61
+  ],
+  "unity_expected": [
+   11.972,
+   0.61,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_23_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -2.937,
+   61.573
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R23",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_18_TOILET"
+  },
+  "model": [
+   10.563,
+   -4.377,
+   0.61
+  ],
+  "unity_expected": [
+   10.563,
+   0.61,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_open_24_LANDSCAPE_AREA",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.993,
+   38.839
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R24",
+   "roomName": "LANDSCAPE AREA",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   -25.493,
+   -27.111,
+   0.61
+  ],
+  "unity_expected": [
+   -25.493,
+   0.61,
+   -27.111
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_open_25_LANDSCAPE_AREA",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -37.0,
+   47.39
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R25",
+   "roomName": "LANDSCAPE AREA",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   -23.5,
+   -18.56,
+   0.61
+  ],
+  "unity_expected": [
+   -23.5,
+   0.61,
+   -18.56
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_classroom_26_CLASS_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.78,
+   40.295
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R26",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG03_Zone_19_CLASS_ROOM"
+  },
+  "model": [
+   14.28,
+   -25.655,
+   0.61
+  ],
+  "unity_expected": [
+   14.28,
+   0.61,
+   -25.655
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_service_27_ELECTRICAL_PANEL_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -23.373,
+   58.415
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R27",
+   "roomName": "ELECTRICAL PANEL ROOM",
+   "roomType": "service",
+   "zone": "TB_LG03_Zone_20_ELECTRICAL_PANEL_ROOM"
+  },
+  "model": [
+   -9.873,
+   -7.535,
+   0.61
+  ],
+  "unity_expected": [
+   -9.873,
+   0.61,
+   -7.535
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_28_SERVICE_CORRIDOR_10_0_WIDE",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -17.29,
+   57.586
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R28",
+   "roomName": "SERVICE CORRIDOR 10'0\" WIDE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -3.79,
+   -8.364,
+   0.61
+  ],
+  "unity_expected": [
+   -3.79,
+   0.61,
+   -8.364
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_service_29_ELECTRICAL",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -12.29,
+   52.03
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R29",
+   "roomName": "ELECTRICAL",
+   "roomType": "service",
+   "zone": "TB_LG03_Zone_21_ELECTRICAL"
+  },
+  "model": [
+   1.21,
+   -13.92,
+   0.61
+  ],
+  "unity_expected": [
+   1.21,
+   0.61,
+   -13.92
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_service_30_FIRE_DUCT",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -8.038,
+   47.497
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R30",
+   "roomName": "FIRE DUCT",
+   "roomType": "service",
+   "zone": "TB_LG03_Zone_22_FIRE_DUCT"
+  },
+  "model": [
+   5.462,
+   -18.453,
+   0.61
+  ],
+  "unity_expected": [
+   5.462,
+   0.61,
+   -18.453
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_lift_31_LIFT_LOBBY",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -7.429,
+   52.87
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R31",
+   "roomName": "LIFT LOBBY",
+   "roomType": "lift",
+   "zone": "TB_LG03_Zone_23_LIFT_LOBBY"
+  },
+  "model": [
+   6.071,
+   -13.08,
+   0.61
+  ],
+  "unity_expected": [
+   6.071,
+   0.61,
+   -13.08
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_32_GIRLS_REST_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.262,
+   34.683
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R32",
+   "roomName": "GIRLS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_24_GIRLS_REST_ROOM"
+  },
+  "model": [
+   -26.762,
+   -31.267,
+   0.61
+  ],
+  "unity_expected": [
+   -26.762,
+   0.61,
+   -31.267
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_33_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -34.023,
+   27.689
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R33",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_25_TOILET"
+  },
+  "model": [
+   -20.523,
+   -38.261,
+   0.61
+  ],
+  "unity_expected": [
+   -20.523,
+   0.61,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_34_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.368,
+   27.689
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R34",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_26_TOILET"
+  },
+  "model": [
+   -21.868,
+   -38.261,
+   0.61
+  ],
+  "unity_expected": [
+   -21.868,
+   0.61,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_35_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -36.765,
+   27.689
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R35",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_27_TOILET"
+  },
+  "model": [
+   -23.265,
+   -38.261,
+   0.61
+  ],
+  "unity_expected": [
+   -23.265,
+   0.61,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_36_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.086,
+   27.689
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R36",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_28_TOILET"
+  },
+  "model": [
+   -24.586,
+   -38.261,
+   0.61
+  ],
+  "unity_expected": [
+   -24.586,
+   0.61,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_37_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.609,
+   27.689
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R37",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_29_TOILET"
+  },
+  "model": [
+   -26.109,
+   -38.261,
+   0.61
+  ],
+  "unity_expected": [
+   -26.109,
+   0.61,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_38_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.955,
+   27.689
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R38",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_30_TOILET"
+  },
+  "model": [
+   -27.455,
+   -38.261,
+   0.61
+  ],
+  "unity_expected": [
+   -27.455,
+   0.61,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_39_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.327,
+   27.689
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R39",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_31_TOILET"
+  },
+  "model": [
+   -28.827,
+   -38.261,
+   0.61
+  ],
+  "unity_expected": [
+   -28.827,
+   0.61,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_40_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.327,
+   30.938
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R40",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_32_TOILET"
+  },
+  "model": [
+   -28.827,
+   -35.012,
+   0.61
+  ],
+  "unity_expected": [
+   -28.827,
+   0.61,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_41_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.955,
+   30.938
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R41",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_33_TOILET"
+  },
+  "model": [
+   -27.455,
+   -35.012,
+   0.61
+  ],
+  "unity_expected": [
+   -27.455,
+   0.61,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_42_TOILET",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.584,
+   30.938
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R42",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_34_TOILET"
+  },
+  "model": [
+   -26.084,
+   -35.012,
+   0.61
+  ],
+  "unity_expected": [
+   -26.084,
+   0.61,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_toilet_43_GIRLS_WASH_ROOM",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.841,
+   31.316
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R43",
+   "roomName": "GIRLS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG03_Zone_35_GIRLS_WASH_ROOM"
+  },
+  "model": [
+   -22.341,
+   -34.634,
+   0.61
+  ],
+  "unity_expected": [
+   -22.341,
+   0.61,
+   -34.634
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_44_7_0_WIDE_PASSAGE",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.529,
+   29.358
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R44",
+   "roomName": "7'0\" WIDE PASSAGE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -26.029,
+   -36.592,
+   0.61
+  ],
+  "unity_expected": [
+   -26.029,
+   0.61,
+   -36.592
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_45_8_0_WIDE_CORRIDOR",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -34.946,
+   35.046
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R45",
+   "roomName": "8'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -21.446,
+   -30.904,
+   0.61
+  ],
+  "unity_expected": [
+   -21.446,
+   0.61,
+   -30.904
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_46_9_0_WIDE_PATHWAY",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -17.125,
+   31.767
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R46",
+   "roomName": "9'0\" WIDE PATHWAY",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -3.625,
+   -34.183,
+   0.61
+  ],
+  "unity_expected": [
+   -3.625,
+   0.61,
+   -34.183
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_open_47_COURTYARD",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -16.059,
+   44.361
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R47",
+   "roomName": "COURTYARD",
+   "roomType": "open",
+   "zone": "TB_LG03_Zone_36_COURTYARD"
+  },
+  "model": [
+   -2.559,
+   -21.589,
+   0.61
+  ],
+  "unity_expected": [
+   -2.559,
+   0.61,
+   -21.589
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_open_48_WATER_FOUNTAIN",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -23.2,
+   27.427
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R48",
+   "roomName": "WATER FOUNTAIN",
+   "roomType": "open",
+   "zone": "TB_LG03_Zone_37_WATER_FOUNTAIN"
+  },
+  "model": [
+   -9.7,
+   -38.523,
+   0.61
+  ],
+  "unity_expected": [
+   -9.7,
+   0.61,
+   -38.523
+  ]
+ },
+ {
+  "name": "NAV_TB_LG03_corridor_49_10_9_WIDE_ENTRANCE_CORRIDOR",
+  "floor": "TB_LG03",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -14.03,
+   20.708
+  ],
+  "rl": 60.61,
+  "props": {
+   "roomId": "TB_LG03_R49",
+   "roomName": "10'9\" WIDE ENTRANCE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -0.53,
+   -45.242,
+   0.61
+  ],
+  "unity_expected": [
+   -0.53,
+   0.61,
+   -45.242
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_01_20_0_WIDE_CORRIDOR",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -30.838,
+   27.562
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R01",
+   "roomName": "20'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -17.338,
+   -38.388,
+   4.26
+  ],
+  "unity_expected": [
+   -17.338,
+   4.26,
+   -38.388
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_classroom_02_CLASS_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.78,
+   45.772
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R02",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG02_Zone_01_CLASS_ROOM"
+  },
+  "model": [
+   14.28,
+   -20.178,
+   4.26
+  ],
+  "unity_expected": [
+   14.28,
+   4.26,
+   -20.178
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_lift_03_LIFT",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R03",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   2.478,
+   -15.053,
+   4.26
+  ],
+  "unity_expected": [
+   2.478,
+   4.26,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_lift_04_LIFT",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R04",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   4.247,
+   -16.821,
+   4.26
+  ],
+  "unity_expected": [
+   4.247,
+   4.26,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_classroom_05_CLASS_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -31.302,
+   18.981
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R05",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG02_Zone_02_CLASS_ROOM"
+  },
+  "model": [
+   -17.802,
+   -46.969,
+   4.26
+  ],
+  "unity_expected": [
+   -17.802,
+   4.26,
+   -46.969
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_classroom_06_CLASS_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.079,
+   23.946
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R06",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG02_Zone_03_CLASS_ROOM"
+  },
+  "model": [
+   8.421,
+   -42.004,
+   4.26
+  ],
+  "unity_expected": [
+   8.421,
+   4.26,
+   -42.004
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_classroom_07_CLASS_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.452,
+   24.006
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R07",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG02_Zone_04_CLASS_ROOM"
+  },
+  "model": [
+   -24.952,
+   -41.944,
+   4.26
+  ],
+  "unity_expected": [
+   -24.952,
+   4.26,
+   -41.944
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_08_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -24.644,
+   44.921
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R08",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -11.144,
+   -21.029,
+   4.26
+  ],
+  "unity_expected": [
+   -11.144,
+   4.26,
+   -21.029
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_09_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.431,
+   41.192
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R09",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   8.069,
+   -24.758,
+   4.26
+  ],
+  "unity_expected": [
+   8.069,
+   4.26,
+   -24.758
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_staff_10_STAFF_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -30.21,
+   44.897
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R10",
+   "roomName": "STAFF ROOM",
+   "roomType": "staff",
+   "zone": "TB_LG02_Zone_05_STAFF_ROOM"
+  },
+  "model": [
+   -16.71,
+   -21.053,
+   4.26
+  ],
+  "unity_expected": [
+   -16.71,
+   4.26,
+   -21.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_11_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.021,
+   57.985
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R11",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_06_TOILET"
+  },
+  "model": [
+   -19.521,
+   -7.965,
+   4.26
+  ],
+  "unity_expected": [
+   -19.521,
+   4.26,
+   -7.965
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_staff_12_STAFF_HEAD",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -32.638,
+   43.592
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R12",
+   "roomName": "STAFF HEAD",
+   "roomType": "staff",
+   "zone": "TB_LG02_Zone_07_STAFF_HEAD"
+  },
+  "model": [
+   -19.138,
+   -22.358,
+   4.26
+  ],
+  "unity_expected": [
+   -19.138,
+   4.26,
+   -22.358
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_13_BOYS_WASH_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.954,
+   58.661
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R13",
+   "roomName": "BOYS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_08_BOYS_WASH_ROOM"
+  },
+  "model": [
+   15.454,
+   -7.289,
+   4.26
+  ],
+  "unity_expected": [
+   15.454,
+   4.26,
+   -7.289
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_14_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   5.35,
+   61.573
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R14",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_09_TOILET"
+  },
+  "model": [
+   18.85,
+   -4.377,
+   4.26
+  ],
+  "unity_expected": [
+   18.85,
+   4.26,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_15_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   3.918,
+   61.573
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R15",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_10_TOILET"
+  },
+  "model": [
+   17.418,
+   -4.377,
+   4.26
+  ],
+  "unity_expected": [
+   17.418,
+   4.26,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_16_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   2.647,
+   61.573
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R16",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_11_TOILET"
+  },
+  "model": [
+   16.147,
+   -4.377,
+   4.26
+  ],
+  "unity_expected": [
+   16.147,
+   4.26,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_17_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.167,
+   61.573
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R17",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_12_TOILET"
+  },
+  "model": [
+   14.667,
+   -4.377,
+   4.26
+  ],
+  "unity_expected": [
+   14.667,
+   4.26,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_18_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -0.159,
+   61.573
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R18",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_13_TOILET"
+  },
+  "model": [
+   13.341,
+   -4.377,
+   4.26
+  ],
+  "unity_expected": [
+   13.341,
+   4.26,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_19_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -1.528,
+   61.573
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R19",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_14_TOILET"
+  },
+  "model": [
+   11.972,
+   -4.377,
+   4.26
+  ],
+  "unity_expected": [
+   11.972,
+   4.26,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_20_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -2.937,
+   61.573
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R20",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_15_TOILET"
+  },
+  "model": [
+   10.563,
+   -4.377,
+   4.26
+  ],
+  "unity_expected": [
+   10.563,
+   4.26,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_classroom_21_CLASS_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.78,
+   40.295
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R21",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG02_Zone_16_CLASS_ROOM"
+  },
+  "model": [
+   14.28,
+   -25.655,
+   4.26
+  ],
+  "unity_expected": [
+   14.28,
+   4.26,
+   -25.655
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_service_22_FIRE_DUCT",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -8.039,
+   47.497
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R22",
+   "roomName": "FIRE DUCT",
+   "roomType": "service",
+   "zone": "TB_LG02_Zone_17_FIRE_DUCT"
+  },
+  "model": [
+   5.461,
+   -18.453,
+   4.26
+  ],
+  "unity_expected": [
+   5.461,
+   4.26,
+   -18.453
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_lift_23_LIFT_LOBBY",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -7.43,
+   52.869
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R23",
+   "roomName": "LIFT LOBBY",
+   "roomType": "lift",
+   "zone": "TB_LG02_Zone_18_LIFT_LOBBY"
+  },
+  "model": [
+   6.07,
+   -13.081,
+   4.26
+  ],
+  "unity_expected": [
+   6.07,
+   4.26,
+   -13.081
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_24_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -19.249,
+   54.266
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R24",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -5.749,
+   -11.684,
+   4.26
+  ],
+  "unity_expected": [
+   -5.749,
+   4.26,
+   -11.684
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_25_GIRLS_REST_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.262,
+   34.683
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R25",
+   "roomName": "GIRLS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_19_GIRLS_REST_ROOM"
+  },
+  "model": [
+   -26.762,
+   -31.267,
+   4.26
+  ],
+  "unity_expected": [
+   -26.762,
+   4.26,
+   -31.267
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_26_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -34.023,
+   27.689
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R26",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_20_TOILET"
+  },
+  "model": [
+   -20.523,
+   -38.261,
+   4.26
+  ],
+  "unity_expected": [
+   -20.523,
+   4.26,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_27_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.369,
+   27.689
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R27",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_21_TOILET"
+  },
+  "model": [
+   -21.869,
+   -38.261,
+   4.26
+  ],
+  "unity_expected": [
+   -21.869,
+   4.26,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_28_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -36.765,
+   27.689
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R28",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_22_TOILET"
+  },
+  "model": [
+   -23.265,
+   -38.261,
+   4.26
+  ],
+  "unity_expected": [
+   -23.265,
+   4.26,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_29_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.086,
+   27.689
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R29",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_23_TOILET"
+  },
+  "model": [
+   -24.586,
+   -38.261,
+   4.26
+  ],
+  "unity_expected": [
+   -24.586,
+   4.26,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_30_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.609,
+   27.689
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R30",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_24_TOILET"
+  },
+  "model": [
+   -26.109,
+   -38.261,
+   4.26
+  ],
+  "unity_expected": [
+   -26.109,
+   4.26,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_31_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.955,
+   27.689
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R31",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_25_TOILET"
+  },
+  "model": [
+   -27.455,
+   -38.261,
+   4.26
+  ],
+  "unity_expected": [
+   -27.455,
+   4.26,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_32_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.327,
+   27.689
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R32",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_26_TOILET"
+  },
+  "model": [
+   -28.827,
+   -38.261,
+   4.26
+  ],
+  "unity_expected": [
+   -28.827,
+   4.26,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_33_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.327,
+   30.938
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R33",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_27_TOILET"
+  },
+  "model": [
+   -28.827,
+   -35.012,
+   4.26
+  ],
+  "unity_expected": [
+   -28.827,
+   4.26,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_34_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.955,
+   30.938
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R34",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_28_TOILET"
+  },
+  "model": [
+   -27.455,
+   -35.012,
+   4.26
+  ],
+  "unity_expected": [
+   -27.455,
+   4.26,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_35_TOILET",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.584,
+   30.938
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R35",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_29_TOILET"
+  },
+  "model": [
+   -26.084,
+   -35.012,
+   4.26
+  ],
+  "unity_expected": [
+   -26.084,
+   4.26,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_toilet_36_GIRLS_WASH_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.841,
+   31.315
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R36",
+   "roomName": "GIRLS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG02_Zone_30_GIRLS_WASH_ROOM"
+  },
+  "model": [
+   -22.341,
+   -34.635,
+   4.26
+  ],
+  "unity_expected": [
+   -22.341,
+   4.26,
+   -34.635
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_37_7_0_WIDE_PASSAGE",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.529,
+   29.358
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R37",
+   "roomName": "7'0\" WIDE PASSAGE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -26.029,
+   -36.592,
+   4.26
+  ],
+  "unity_expected": [
+   -26.029,
+   4.26,
+   -36.592
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_38_8_0_WIDE_CORRIDOR",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -34.946,
+   35.046
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R38",
+   "roomName": "8'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -21.446,
+   -30.904,
+   4.26
+  ],
+  "unity_expected": [
+   -21.446,
+   4.26,
+   -30.904
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_service_39_STORE_ROOM",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -20.215,
+   57.536
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R39",
+   "roomName": "STORE ROOM",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   -6.715,
+   -8.414,
+   4.26
+  ],
+  "unity_expected": [
+   -6.715,
+   4.26,
+   -8.414
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_40_10_7_WIDE_CORRIDOR",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -16.531,
+   34.834
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R40",
+   "roomName": "10'7\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -3.031,
+   -31.116,
+   4.26
+  ],
+  "unity_expected": [
+   -3.031,
+   4.26,
+   -31.116
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_corridor_41_23_0_WIDE_CORRIDOR",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -26.252,
+   37.598
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R41",
+   "roomName": "23'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -12.752,
+   -28.352,
+   4.26
+  ],
+  "unity_expected": [
+   -12.752,
+   4.26,
+   -28.352
+  ]
+ },
+ {
+  "name": "NAV_TB_LG02_service_42_ELECTRICAL",
+  "floor": "TB_LG02",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -12.371,
+   52.111
+  ],
+  "rl": 64.26,
+  "props": {
+   "roomId": "TB_LG02_R42",
+   "roomName": "ELECTRICAL",
+   "roomType": "service",
+   "zone": "TB_LG02_Zone_31_ELECTRICAL"
+  },
+  "model": [
+   1.129,
+   -13.839,
+   4.26
+  ],
+  "unity_expected": [
+   1.129,
+   4.26,
+   -13.839
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_lobby_01_INTERACTION_SPACE_24_3_WIDE",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -30.539,
+   47.675
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R01",
+   "roomName": "INTERACTION SPACE 24'3\" WIDE",
+   "roomType": "lobby",
+   "zone": ""
+  },
+  "model": [
+   -17.039,
+   -18.275,
+   7.92
+  ],
+  "unity_expected": [
+   -17.039,
+   7.92,
+   -18.275
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_classroom_02_CLASS_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.452,
+   23.935
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R02",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG01_Zone_01_CLASS_ROOM"
+  },
+  "model": [
+   -24.952,
+   -42.015,
+   7.92
+  ],
+  "unity_expected": [
+   -24.952,
+   7.92,
+   -42.015
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_lift_03_LIFT",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R03",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   2.478,
+   -15.053,
+   7.92
+  ],
+  "unity_expected": [
+   2.478,
+   7.92,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_lift_04_LIFT",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R04",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   4.247,
+   -16.821,
+   7.92
+  ],
+  "unity_expected": [
+   4.247,
+   7.92,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_classroom_05_CLASS_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -31.262,
+   17.501
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R05",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG01_Zone_02_CLASS_ROOM"
+  },
+  "model": [
+   -17.762,
+   -48.449,
+   7.92
+  ],
+  "unity_expected": [
+   -17.762,
+   7.92,
+   -48.449
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_classroom_06_CLASS_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.78,
+   40.295
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R06",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG01_Zone_03_CLASS_ROOM"
+  },
+  "model": [
+   14.28,
+   -25.655,
+   7.92
+  ],
+  "unity_expected": [
+   14.28,
+   7.92,
+   -25.655
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_07_GIRLS_REST_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.262,
+   34.683
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R07",
+   "roomName": "GIRLS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_04_GIRLS_REST_ROOM"
+  },
+  "model": [
+   -26.762,
+   -31.267,
+   7.92
+  ],
+  "unity_expected": [
+   -26.762,
+   7.92,
+   -31.267
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_08_8_0_WIDE_CORRIDOR_8_0_WIDE_COR",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.955,
+   35.047
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R08",
+   "roomName": "8'0\" WIDE CORRIDOR 8'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -20.455,
+   -30.903,
+   7.92
+  ],
+  "unity_expected": [
+   -20.455,
+   7.92,
+   -30.903
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_09_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -34.023,
+   27.689
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R09",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_05_TOILET"
+  },
+  "model": [
+   -20.523,
+   -38.261,
+   7.92
+  ],
+  "unity_expected": [
+   -20.523,
+   7.92,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_10_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.369,
+   27.689
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R10",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_06_TOILET"
+  },
+  "model": [
+   -21.869,
+   -38.261,
+   7.92
+  ],
+  "unity_expected": [
+   -21.869,
+   7.92,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_11_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -36.765,
+   27.689
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R11",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_07_TOILET"
+  },
+  "model": [
+   -23.265,
+   -38.261,
+   7.92
+  ],
+  "unity_expected": [
+   -23.265,
+   7.92,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_12_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.086,
+   27.689
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R12",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_08_TOILET"
+  },
+  "model": [
+   -24.586,
+   -38.261,
+   7.92
+  ],
+  "unity_expected": [
+   -24.586,
+   7.92,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_13_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.61,
+   27.689
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R13",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_09_TOILET"
+  },
+  "model": [
+   -26.11,
+   -38.261,
+   7.92
+  ],
+  "unity_expected": [
+   -26.11,
+   7.92,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_14_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.955,
+   27.689
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R14",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_10_TOILET"
+  },
+  "model": [
+   -27.455,
+   -38.261,
+   7.92
+  ],
+  "unity_expected": [
+   -27.455,
+   7.92,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_15_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.327,
+   27.689
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R15",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_11_TOILET"
+  },
+  "model": [
+   -28.827,
+   -38.261,
+   7.92
+  ],
+  "unity_expected": [
+   -28.827,
+   7.92,
+   -38.261
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_16_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.327,
+   30.938
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R16",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_12_TOILET"
+  },
+  "model": [
+   -28.827,
+   -35.012,
+   7.92
+  ],
+  "unity_expected": [
+   -28.827,
+   7.92,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_17_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.955,
+   30.938
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R17",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_13_TOILET"
+  },
+  "model": [
+   -27.455,
+   -35.012,
+   7.92
+  ],
+  "unity_expected": [
+   -27.455,
+   7.92,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_18_TOILET",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.584,
+   30.938
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R18",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_14_TOILET"
+  },
+  "model": [
+   -26.084,
+   -35.012,
+   7.92
+  ],
+  "unity_expected": [
+   -26.084,
+   7.92,
+   -35.012
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_toilet_19_GIRLS_WASH_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.841,
+   31.315
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R19",
+   "roomName": "GIRLS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_LG01_Zone_15_GIRLS_WASH_ROOM"
+  },
+  "model": [
+   -22.341,
+   -34.635,
+   7.92
+  ],
+  "unity_expected": [
+   -22.341,
+   7.92,
+   -34.635
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_20_7_0_WIDE_PASSAGE",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.529,
+   29.358
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R20",
+   "roomName": "7'0\" WIDE PASSAGE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -26.029,
+   -36.592,
+   7.92
+  ],
+  "unity_expected": [
+   -26.029,
+   7.92,
+   -36.592
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_21_20_0_WIDE_CORRIDOR",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -29.998,
+   27.635
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R21",
+   "roomName": "20'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -16.498,
+   -38.315,
+   7.92
+  ],
+  "unity_expected": [
+   -16.498,
+   7.92,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_lift_22_LIFT_LOBBY",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -7.131,
+   52.122
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R22",
+   "roomName": "LIFT LOBBY",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   6.369,
+   -13.828,
+   7.92
+  ],
+  "unity_expected": [
+   6.369,
+   7.92,
+   -13.828
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_23_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -21.258,
+   54.236
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R23",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -7.758,
+   -11.714,
+   7.92
+  ],
+  "unity_expected": [
+   -7.758,
+   7.92,
+   -11.714
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_24_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.431,
+   39.815
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R24",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   8.069,
+   -26.135,
+   7.92
+  ],
+  "unity_expected": [
+   8.069,
+   7.92,
+   -26.135
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_25_12_0_WIDE_CORRIDOR",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -27.939,
+   39.051
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R25",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -14.439,
+   -26.899,
+   7.92
+  ],
+  "unity_expected": [
+   -14.439,
+   7.92,
+   -26.899
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_staff_26_STAFF_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.223,
+   52.646
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R26",
+   "roomName": "STAFF ROOM",
+   "roomType": "staff",
+   "zone": "TB_LG01_Zone_16_STAFF_ROOM"
+  },
+  "model": [
+   13.723,
+   -13.304,
+   7.92
+  ],
+  "unity_expected": [
+   13.723,
+   7.92,
+   -13.304
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_staff_27_STAFF_HEAD",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.206,
+   53.422
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R27",
+   "roomName": "STAFF HEAD",
+   "roomType": "staff",
+   "zone": "TB_LG01_Zone_17_STAFF_HEAD"
+  },
+  "model": [
+   17.706,
+   -12.528,
+   7.92
+  ],
+  "unity_expected": [
+   17.706,
+   7.92,
+   -12.528
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_28_10_7_WIDE_CORRIDOR",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -18.392,
+   35.122
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R28",
+   "roomName": "10'7\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -4.892,
+   -30.828,
+   7.92
+  ],
+  "unity_expected": [
+   -4.892,
+   7.92,
+   -30.828
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_classroom_29_CLASS_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.054,
+   24.091
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R29",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG01_Zone_18_CLASS_ROOM"
+  },
+  "model": [
+   8.446,
+   -41.859,
+   7.92
+  ],
+  "unity_expected": [
+   8.446,
+   7.92,
+   -41.859
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_classroom_30_CLASS_ROOM",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -8.883,
+   24.091
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R30",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_LG01_Zone_19_CLASS_ROOM"
+  },
+  "model": [
+   4.617,
+   -41.859,
+   7.92
+  ],
+  "unity_expected": [
+   4.617,
+   7.92,
+   -41.859
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_corridor_31_21_0_WIDE_CORRIDOR",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -6.938,
+   32.845
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R31",
+   "roomName": "21'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   6.562,
+   -33.105,
+   7.92
+  ],
+  "unity_expected": [
+   6.562,
+   7.92,
+   -33.105
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_service_32_ELECTRICAL",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -12.291,
+   52.031
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R32",
+   "roomName": "ELECTRICAL",
+   "roomType": "service",
+   "zone": "TB_LG01_Zone_20_ELECTRICAL"
+  },
+  "model": [
+   1.209,
+   -13.919,
+   7.92
+  ],
+  "unity_expected": [
+   1.209,
+   7.92,
+   -13.919
+  ]
+ },
+ {
+  "name": "NAV_TB_LG01_service_33_FIRE_DUCT",
+  "floor": "TB_LG01",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -8.039,
+   47.497
+  ],
+  "rl": 67.92,
+  "props": {
+   "roomId": "TB_LG01_R33",
+   "roomName": "FIRE DUCT",
+   "roomType": "service",
+   "zone": "TB_LG01_Zone_21_FIRE_DUCT"
+  },
+  "model": [
+   5.461,
+   -18.453,
+   7.92
+  ],
+  "unity_expected": [
+   5.461,
+   7.92,
+   -18.453
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_lift_01_LIFT",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R01",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   2.478,
+   -15.053,
+   11.73
+  ],
+  "unity_expected": [
+   2.478,
+   11.73,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_lift_02_LIFT",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R02",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   4.247,
+   -16.821,
+   11.73
+  ],
+  "unity_expected": [
+   4.247,
+   11.73,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_classroom_03_CLASS_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -31.329,
+   18.367
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R03",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_GF_Zone_01_CLASS_ROOM"
+  },
+  "model": [
+   -17.829,
+   -47.583,
+   11.73
+  ],
+  "unity_expected": [
+   -17.829,
+   11.73,
+   -47.583
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_classroom_04_CLASS_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.108,
+   24.611
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R04",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_GF_Zone_02_CLASS_ROOM"
+  },
+  "model": [
+   4.392,
+   -41.339,
+   11.73
+  ],
+  "unity_expected": [
+   4.392,
+   11.73,
+   -41.339
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_classroom_05_CLASS_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.019,
+   24.537
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R05",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_GF_Zone_03_CLASS_ROOM"
+  },
+  "model": [
+   8.481,
+   -41.413,
+   11.73
+  ],
+  "unity_expected": [
+   8.481,
+   11.73,
+   -41.413
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_classroom_06_CLASS_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -31.882,
+   45.259
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R06",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_GF_Zone_04_CLASS_ROOM"
+  },
+  "model": [
+   -18.382,
+   -20.691,
+   11.73
+  ],
+  "unity_expected": [
+   -18.382,
+   11.73,
+   -20.691
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_classroom_07_CLASS_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.159,
+   40.226
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R07",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_GF_Zone_05_CLASS_ROOM"
+  },
+  "model": [
+   14.659,
+   -25.724,
+   11.73
+  ],
+  "unity_expected": [
+   14.659,
+   11.73,
+   -25.724
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_classroom_08_CLASS_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.586,
+   23.958
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R08",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_GF_Zone_06_CLASS_ROOM"
+  },
+  "model": [
+   -25.086,
+   -41.992,
+   11.73
+  ],
+  "unity_expected": [
+   -25.086,
+   11.73,
+   -41.992
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_09_GIRLS_REST_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.262,
+   34.728
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R09",
+   "roomName": "GIRLS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_07_GIRLS_REST_ROOM"
+  },
+  "model": [
+   -26.762,
+   -31.222,
+   11.73
+  ],
+  "unity_expected": [
+   -26.762,
+   11.73,
+   -31.222
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_10_12_0_WIDE_CORRIDOR",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -22.805,
+   54.236
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R10",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -9.305,
+   -11.714,
+   11.73
+  ],
+  "unity_expected": [
+   -9.305,
+   11.73,
+   -11.714
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_11_12_0_WIDE_CORRIDOR",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -24.644,
+   46.975
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R11",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -11.144,
+   -18.975,
+   11.73
+  ],
+  "unity_expected": [
+   -11.144,
+   11.73,
+   -18.975
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_12_12_0_WIDE_CORRIDOR",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.431,
+   39.815
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R12",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   8.069,
+   -26.135,
+   11.73
+  ],
+  "unity_expected": [
+   8.069,
+   11.73,
+   -26.135
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_lift_13_LIFT_LOBBY",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -7.131,
+   51.782
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R13",
+   "roomName": "LIFT LOBBY",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   6.369,
+   -14.168,
+   11.73
+  ],
+  "unity_expected": [
+   6.369,
+   11.73,
+   -14.168
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_14_8_0_WIDE_CORRIDOR",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.954,
+   35.047
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R14",
+   "roomName": "8'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -20.454,
+   -30.903,
+   11.73
+  ],
+  "unity_expected": [
+   -20.454,
+   11.73,
+   -30.903
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_15_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.975,
+   27.635
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R15",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_08_TOILET"
+  },
+  "model": [
+   -20.475,
+   -38.315,
+   11.73
+  ],
+  "unity_expected": [
+   -20.475,
+   11.73,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_16_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.321,
+   27.635
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R16",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_09_TOILET"
+  },
+  "model": [
+   -21.821,
+   -38.315,
+   11.73
+  ],
+  "unity_expected": [
+   -21.821,
+   11.73,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_17_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -36.717,
+   27.635
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R17",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_10_TOILET"
+  },
+  "model": [
+   -23.217,
+   -38.315,
+   11.73
+  ],
+  "unity_expected": [
+   -23.217,
+   11.73,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_18_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.038,
+   27.635
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R18",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_11_TOILET"
+  },
+  "model": [
+   -24.538,
+   -38.315,
+   11.73
+  ],
+  "unity_expected": [
+   -24.538,
+   11.73,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_19_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.562,
+   27.635
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R19",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_12_TOILET"
+  },
+  "model": [
+   -26.062,
+   -38.315,
+   11.73
+  ],
+  "unity_expected": [
+   -26.062,
+   11.73,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_20_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.907,
+   27.635
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R20",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_13_TOILET"
+  },
+  "model": [
+   -27.407,
+   -38.315,
+   11.73
+  ],
+  "unity_expected": [
+   -27.407,
+   11.73,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_21_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.279,
+   27.635
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R21",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_14_TOILET"
+  },
+  "model": [
+   -28.779,
+   -38.315,
+   11.73
+  ],
+  "unity_expected": [
+   -28.779,
+   11.73,
+   -38.315
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_22_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.3,
+   30.948
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R22",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_15_TOILET"
+  },
+  "model": [
+   -28.8,
+   -35.002,
+   11.73
+  ],
+  "unity_expected": [
+   -28.8,
+   11.73,
+   -35.002
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_23_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.929,
+   30.948
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R23",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_16_TOILET"
+  },
+  "model": [
+   -27.429,
+   -35.002,
+   11.73
+  ],
+  "unity_expected": [
+   -27.429,
+   11.73,
+   -35.002
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_24_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.558,
+   30.948
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R24",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_17_TOILET"
+  },
+  "model": [
+   -26.058,
+   -35.002,
+   11.73
+  ],
+  "unity_expected": [
+   -26.058,
+   11.73,
+   -35.002
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_25_GIRLS_WASH_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.841,
+   31.315
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R25",
+   "roomName": "GIRLS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_18_GIRLS_WASH_ROOM"
+  },
+  "model": [
+   -22.341,
+   -34.635,
+   11.73
+  ],
+  "unity_expected": [
+   -22.341,
+   11.73,
+   -34.635
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_26_7_0_WIDE_PASSAGE",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.529,
+   29.358
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R26",
+   "roomName": "7'0\" WIDE PASSAGE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -26.029,
+   -36.592,
+   11.73
+  ],
+  "unity_expected": [
+   -26.029,
+   11.73,
+   -36.592
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_lobby_27_ENTRANCE_LOBBY",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -13.949,
+   59.86
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R27",
+   "roomName": "ENTRANCE LOBBY",
+   "roomType": "lobby",
+   "zone": "TB_GF_Zone_19_ENTRANCE_LOBBY"
+  },
+  "model": [
+   -0.449,
+   -6.09,
+   11.73
+  ],
+  "unity_expected": [
+   -0.449,
+   11.73,
+   -6.09
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_28_BOYS_WASH_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.134,
+   62.896
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R28",
+   "roomName": "BOYS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_20_BOYS_WASH_ROOM"
+  },
+  "model": [
+   14.634,
+   -3.054,
+   11.73
+  ],
+  "unity_expected": [
+   14.634,
+   11.73,
+   -3.054
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_29_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   5.348,
+   64.747
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R29",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_21_TOILET"
+  },
+  "model": [
+   18.848,
+   -1.203,
+   11.73
+  ],
+  "unity_expected": [
+   18.848,
+   11.73,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_30_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   3.916,
+   64.747
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R30",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_22_TOILET"
+  },
+  "model": [
+   17.416,
+   -1.203,
+   11.73
+  ],
+  "unity_expected": [
+   17.416,
+   11.73,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_31_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   2.645,
+   64.747
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R31",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_23_TOILET"
+  },
+  "model": [
+   16.145,
+   -1.203,
+   11.73
+  ],
+  "unity_expected": [
+   16.145,
+   11.73,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_32_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.166,
+   64.747
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R32",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_24_TOILET"
+  },
+  "model": [
+   14.666,
+   -1.203,
+   11.73
+  ],
+  "unity_expected": [
+   14.666,
+   11.73,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_33_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -0.16,
+   64.747
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R33",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_25_TOILET"
+  },
+  "model": [
+   13.34,
+   -1.203,
+   11.73
+  ],
+  "unity_expected": [
+   13.34,
+   11.73,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_34_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -1.53,
+   64.747
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R34",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_26_TOILET"
+  },
+  "model": [
+   11.97,
+   -1.203,
+   11.73
+  ],
+  "unity_expected": [
+   11.97,
+   11.73,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_35_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -2.938,
+   64.747
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R35",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_27_TOILET"
+  },
+  "model": [
+   10.562,
+   -1.203,
+   11.73
+  ],
+  "unity_expected": [
+   10.562,
+   11.73,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_36_10_0_WIDE_CORRIDOR",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -3.065,
+   59.149
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R36",
+   "roomName": "10'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   10.435,
+   -6.801,
+   11.73
+  ],
+  "unity_expected": [
+   10.435,
+   11.73,
+   -6.801
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_staff_37_STAFF_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.223,
+   52.646
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R37",
+   "roomName": "STAFF ROOM",
+   "roomType": "staff",
+   "zone": "TB_GF_Zone_28_STAFF_ROOM"
+  },
+  "model": [
+   13.723,
+   -13.304,
+   11.73
+  ],
+  "unity_expected": [
+   13.723,
+   11.73,
+   -13.304
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_staff_38_STAFF_HEAD",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.207,
+   53.422
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R38",
+   "roomName": "STAFF HEAD",
+   "roomType": "staff",
+   "zone": "TB_GF_Zone_29_STAFF_HEAD"
+  },
+  "model": [
+   17.707,
+   -12.528,
+   11.73
+  ],
+  "unity_expected": [
+   17.707,
+   11.73,
+   -12.528
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_39_TOILET",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.932,
+   56.602
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R39",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_30_TOILET"
+  },
+  "model": [
+   18.432,
+   -9.348,
+   11.73
+  ],
+  "unity_expected": [
+   18.432,
+   11.73,
+   -9.348
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_40_10_7_WIDE_CORRIDOR",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -18.654,
+   35.122
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R40",
+   "roomName": "10'7\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -5.154,
+   -30.828,
+   11.73
+  ],
+  "unity_expected": [
+   -5.154,
+   11.73,
+   -30.828
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_corridor_41_15_0_WIDE_CORRIDOR",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -30.838,
+   27.526
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R41",
+   "roomName": "15'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -17.338,
+   -38.424,
+   11.73
+  ],
+  "unity_expected": [
+   -17.338,
+   11.73,
+   -38.424
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_lobby_42_ENTRANCE_VERANDAH_8_6_WIDE",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -14.094,
+   63.612
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R42",
+   "roomName": "ENTRANCE VERANDAH 8'6\" WIDE",
+   "roomType": "lobby",
+   "zone": "TB_GF_Zone_31_ENTRANCE_VERANDAH_8_6_WIDE"
+  },
+  "model": [
+   -0.594,
+   -2.338,
+   11.73
+  ],
+  "unity_expected": [
+   -0.594,
+   11.73,
+   -2.338
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_toilet_43_BOYS_REST_ROOM",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.15,
+   58.125
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R43",
+   "roomName": "BOYS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_GF_Zone_32_BOYS_REST_ROOM"
+  },
+  "model": [
+   17.65,
+   -7.825,
+   11.73
+  ],
+  "unity_expected": [
+   17.65,
+   11.73,
+   -7.825
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_service_44_ELECTRICAL",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -12.29,
+   52.031
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R44",
+   "roomName": "ELECTRICAL",
+   "roomType": "service",
+   "zone": "TB_GF_Zone_33_ELECTRICAL"
+  },
+  "model": [
+   1.21,
+   -13.919,
+   11.73
+  ],
+  "unity_expected": [
+   1.21,
+   11.73,
+   -13.919
+  ]
+ },
+ {
+  "name": "NAV_TB_GF_service_45_FIRE_DUCT",
+  "floor": "TB_GF",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -8.038,
+   47.497
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "TB_GF_R45",
+   "roomName": "FIRE DUCT",
+   "roomType": "service",
+   "zone": "TB_GF_Zone_34_FIRE_DUCT"
+  },
+  "model": [
+   5.462,
+   -18.453,
+   11.73
+  ],
+  "unity_expected": [
+   5.462,
+   11.73,
+   -18.453
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_lift_01_LIFT",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R01",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   2.478,
+   -15.053,
+   15.54
+  ],
+  "unity_expected": [
+   2.478,
+   15.54,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_lift_02_LIFT",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R02",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   4.247,
+   -16.821,
+   15.54
+  ],
+  "unity_expected": [
+   4.247,
+   15.54,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_classroom_03_CLASS_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -21.885,
+   17.679
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R03",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_1F_Zone_01_CLASS_ROOM"
+  },
+  "model": [
+   -8.385,
+   -48.271,
+   15.54
+  ],
+  "unity_expected": [
+   -8.385,
+   15.54,
+   -48.271
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_classroom_04_CLASS_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.064,
+   24.051
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R04",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_1F_Zone_02_CLASS_ROOM"
+  },
+  "model": [
+   4.436,
+   -41.899,
+   15.54
+  ],
+  "unity_expected": [
+   4.436,
+   15.54,
+   -41.899
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_classroom_05_CLASS_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -4.877,
+   23.413
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R05",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_1F_Zone_03_CLASS_ROOM"
+  },
+  "model": [
+   8.623,
+   -42.537,
+   15.54
+  ],
+  "unity_expected": [
+   8.623,
+   15.54,
+   -42.537
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_classroom_06_CLASS_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -30.872,
+   44.892
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R06",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_1F_Zone_04_CLASS_ROOM"
+  },
+  "model": [
+   -17.372,
+   -21.058,
+   15.54
+  ],
+  "unity_expected": [
+   -17.372,
+   15.54,
+   -21.058
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_classroom_07_CLASS_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.657,
+   40.748
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R07",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_1F_Zone_05_CLASS_ROOM"
+  },
+  "model": [
+   14.157,
+   -25.202,
+   15.54
+  ],
+  "unity_expected": [
+   14.157,
+   15.54,
+   -25.202
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_classroom_08_CLASS_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.208,
+   23.812
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R08",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_1F_Zone_06_CLASS_ROOM"
+  },
+  "model": [
+   -24.708,
+   -42.138,
+   15.54
+  ],
+  "unity_expected": [
+   -24.708,
+   15.54,
+   -42.138
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_09_GIRLS_REST_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.262,
+   34.282
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R09",
+   "roomName": "GIRLS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_07_GIRLS_REST_ROOM"
+  },
+  "model": [
+   -26.762,
+   -31.668,
+   15.54
+  ],
+  "unity_expected": [
+   -26.762,
+   15.54,
+   -31.668
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_10_12_0_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -18.447,
+   54.236
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R10",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -4.947,
+   -11.714,
+   15.54
+  ],
+  "unity_expected": [
+   -4.947,
+   15.54,
+   -11.714
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_11_12_0_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -24.644,
+   49.587
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R11",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -11.144,
+   -16.363,
+   15.54
+  ],
+  "unity_expected": [
+   -11.144,
+   15.54,
+   -16.363
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_12_12_0_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.431,
+   39.815
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R12",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   8.069,
+   -26.135,
+   15.54
+  ],
+  "unity_expected": [
+   8.069,
+   15.54,
+   -26.135
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_13_12_0_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -12.778,
+   31.851
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R13",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   0.722,
+   -34.099,
+   15.54
+  ],
+  "unity_expected": [
+   0.722,
+   15.54,
+   -34.099
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_14_10_9_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -29.645,
+   24.725
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R14",
+   "roomName": "10'9\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -16.145,
+   -41.225,
+   15.54
+  ],
+  "unity_expected": [
+   -16.145,
+   15.54,
+   -41.225
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_lift_15_LIFT_LOBBY",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -7.161,
+   52.121
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R15",
+   "roomName": "LIFT LOBBY",
+   "roomType": "lift",
+   "zone": "TB_1F_Zone_08_LIFT_LOBBY"
+  },
+  "model": [
+   6.339,
+   -13.829,
+   15.54
+  ],
+  "unity_expected": [
+   6.339,
+   15.54,
+   -13.829
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_16_8_0_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.954,
+   35.047
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R16",
+   "roomName": "8'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -20.454,
+   -30.903,
+   15.54
+  ],
+  "unity_expected": [
+   -20.454,
+   15.54,
+   -30.903
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_17_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.98,
+   27.75
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R17",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_09_TOILET"
+  },
+  "model": [
+   -20.48,
+   -38.2,
+   15.54
+  ],
+  "unity_expected": [
+   -20.48,
+   15.54,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_18_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.325,
+   27.75
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R18",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_10_TOILET"
+  },
+  "model": [
+   -21.825,
+   -38.2,
+   15.54
+  ],
+  "unity_expected": [
+   -21.825,
+   15.54,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_19_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -36.722,
+   27.75
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R19",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_11_TOILET"
+  },
+  "model": [
+   -23.222,
+   -38.2,
+   15.54
+  ],
+  "unity_expected": [
+   -23.222,
+   15.54,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_20_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.043,
+   27.75
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R20",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_12_TOILET"
+  },
+  "model": [
+   -24.543,
+   -38.2,
+   15.54
+  ],
+  "unity_expected": [
+   -24.543,
+   15.54,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_21_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.566,
+   27.75
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R21",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_13_TOILET"
+  },
+  "model": [
+   -26.066,
+   -38.2,
+   15.54
+  ],
+  "unity_expected": [
+   -26.066,
+   15.54,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_22_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.912,
+   27.75
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R22",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_14_TOILET"
+  },
+  "model": [
+   -27.412,
+   -38.2,
+   15.54
+  ],
+  "unity_expected": [
+   -27.412,
+   15.54,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_23_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.284,
+   27.75
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R23",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_15_TOILET"
+  },
+  "model": [
+   -28.784,
+   -38.2,
+   15.54
+  ],
+  "unity_expected": [
+   -28.784,
+   15.54,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_24_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.319,
+   30.968
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R24",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_16_TOILET"
+  },
+  "model": [
+   -28.819,
+   -34.982,
+   15.54
+  ],
+  "unity_expected": [
+   -28.819,
+   15.54,
+   -34.982
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_25_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.948,
+   30.968
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R25",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_17_TOILET"
+  },
+  "model": [
+   -27.448,
+   -34.982,
+   15.54
+  ],
+  "unity_expected": [
+   -27.448,
+   15.54,
+   -34.982
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_26_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.577,
+   30.968
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R26",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_18_TOILET"
+  },
+  "model": [
+   -26.077,
+   -34.982,
+   15.54
+  ],
+  "unity_expected": [
+   -26.077,
+   15.54,
+   -34.982
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_27_GIRLS_WASH_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.841,
+   31.315
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R27",
+   "roomName": "GIRLS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_19_GIRLS_WASH_ROOM"
+  },
+  "model": [
+   -22.341,
+   -34.635,
+   15.54
+  ],
+  "unity_expected": [
+   -22.341,
+   15.54,
+   -34.635
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_28_7_0_WIDE_PASSAGE",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.529,
+   29.358
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R28",
+   "roomName": "7'0\" WIDE PASSAGE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -26.029,
+   -36.592,
+   15.54
+  ],
+  "unity_expected": [
+   -26.029,
+   15.54,
+   -36.592
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_29_21_6_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -23.805,
+   29.461
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R29",
+   "roomName": "21'6\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -10.305,
+   -36.489,
+   15.54
+  ],
+  "unity_expected": [
+   -10.305,
+   15.54,
+   -36.489
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_30_BOYS_WASH_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.134,
+   62.896
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R30",
+   "roomName": "BOYS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_20_BOYS_WASH_ROOM"
+  },
+  "model": [
+   14.634,
+   -3.054,
+   15.54
+  ],
+  "unity_expected": [
+   14.634,
+   15.54,
+   -3.054
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_31_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   5.348,
+   64.747
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R31",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_21_TOILET"
+  },
+  "model": [
+   18.848,
+   -1.203,
+   15.54
+  ],
+  "unity_expected": [
+   18.848,
+   15.54,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_32_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   3.916,
+   64.747
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R32",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_22_TOILET"
+  },
+  "model": [
+   17.416,
+   -1.203,
+   15.54
+  ],
+  "unity_expected": [
+   17.416,
+   15.54,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_33_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   2.645,
+   64.747
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R33",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_23_TOILET"
+  },
+  "model": [
+   16.145,
+   -1.203,
+   15.54
+  ],
+  "unity_expected": [
+   16.145,
+   15.54,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_34_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.166,
+   64.747
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R34",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_24_TOILET"
+  },
+  "model": [
+   14.666,
+   -1.203,
+   15.54
+  ],
+  "unity_expected": [
+   14.666,
+   15.54,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_35_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -0.16,
+   64.747
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R35",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_25_TOILET"
+  },
+  "model": [
+   13.34,
+   -1.203,
+   15.54
+  ],
+  "unity_expected": [
+   13.34,
+   15.54,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_36_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -1.53,
+   64.747
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R36",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_26_TOILET"
+  },
+  "model": [
+   11.97,
+   -1.203,
+   15.54
+  ],
+  "unity_expected": [
+   11.97,
+   15.54,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_37_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -2.938,
+   64.747
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R37",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_27_TOILET"
+  },
+  "model": [
+   10.562,
+   -1.203,
+   15.54
+  ],
+  "unity_expected": [
+   10.562,
+   15.54,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_38_10_0_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -3.275,
+   59.149
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R38",
+   "roomName": "10'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   10.225,
+   -6.801,
+   15.54
+  ],
+  "unity_expected": [
+   10.225,
+   15.54,
+   -6.801
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_staff_39_STAFF_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.223,
+   52.646
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R39",
+   "roomName": "STAFF ROOM",
+   "roomType": "staff",
+   "zone": "TB_1F_Zone_28_STAFF_ROOM"
+  },
+  "model": [
+   13.723,
+   -13.304,
+   15.54
+  ],
+  "unity_expected": [
+   13.723,
+   15.54,
+   -13.304
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_staff_40_STAFF_HEAD",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.207,
+   53.422
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R40",
+   "roomName": "STAFF HEAD",
+   "roomType": "staff",
+   "zone": "TB_1F_Zone_29_STAFF_HEAD"
+  },
+  "model": [
+   17.707,
+   -12.528,
+   15.54
+  ],
+  "unity_expected": [
+   17.707,
+   15.54,
+   -12.528
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_classroom_41_CLASS_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -22.064,
+   61.505
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R41",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_1F_Zone_30_CLASS_ROOM"
+  },
+  "model": [
+   -8.564,
+   -4.445,
+   15.54
+  ],
+  "unity_expected": [
+   -8.564,
+   15.54,
+   -4.445
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_42_BOYS_REST_ROOM",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.15,
+   58.125
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R42",
+   "roomName": "BOYS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_31_BOYS_REST_ROOM"
+  },
+  "model": [
+   17.65,
+   -7.825,
+   15.54
+  ],
+  "unity_expected": [
+   17.65,
+   15.54,
+   -7.825
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_corridor_43_23_0_WIDE_CORRIDOR",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -26.239,
+   38.131
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R43",
+   "roomName": "23'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -12.739,
+   -27.819,
+   15.54
+  ],
+  "unity_expected": [
+   -12.739,
+   15.54,
+   -27.819
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_toilet_44_TOILET",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.932,
+   56.602
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R44",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_1F_Zone_32_TOILET"
+  },
+  "model": [
+   18.432,
+   -9.348,
+   15.54
+  ],
+  "unity_expected": [
+   18.432,
+   15.54,
+   -9.348
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_service_45_Electrical",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -3.227,
+   54.928
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R45",
+   "roomName": "Electrical",
+   "roomType": "service",
+   "zone": "TB_1F_Zone_33_Electrical"
+  },
+  "model": [
+   10.273,
+   -11.022,
+   15.54
+  ],
+  "unity_expected": [
+   10.273,
+   15.54,
+   -11.022
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_service_46_communication",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -2.985,
+   56.825
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R46",
+   "roomName": "communication",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   10.515,
+   -9.125,
+   15.54
+  ],
+  "unity_expected": [
+   10.515,
+   15.54,
+   -9.125
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_service_47_ELECTRICAL",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -12.29,
+   52.031
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R47",
+   "roomName": "ELECTRICAL",
+   "roomType": "service",
+   "zone": "TB_1F_Zone_34_ELECTRICAL"
+  },
+  "model": [
+   1.21,
+   -13.919,
+   15.54
+  ],
+  "unity_expected": [
+   1.21,
+   15.54,
+   -13.919
+  ]
+ },
+ {
+  "name": "NAV_TB_1F_service_48_FIRE_DUCT",
+  "floor": "TB_1F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -8.038,
+   47.497
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "TB_1F_R48",
+   "roomName": "FIRE DUCT",
+   "roomType": "service",
+   "zone": "TB_1F_Zone_35_FIRE_DUCT"
+  },
+  "model": [
+   5.462,
+   -18.453,
+   15.54
+  ],
+  "unity_expected": [
+   5.462,
+   15.54,
+   -18.453
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_lift_01_LIFT",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -11.022,
+   50.897
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R01",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   2.478,
+   -15.053,
+   19.35
+  ],
+  "unity_expected": [
+   2.478,
+   19.35,
+   -15.053
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_lift_02_LIFT",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.253,
+   49.129
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R02",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   4.247,
+   -16.821,
+   19.35
+  ],
+  "unity_expected": [
+   4.247,
+   19.35,
+   -16.821
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_03_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -21.885,
+   17.679
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R03",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_01_CLASS_ROOM"
+  },
+  "model": [
+   -8.385,
+   -48.271,
+   19.35
+  ],
+  "unity_expected": [
+   -8.385,
+   19.35,
+   -48.271
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_04_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -9.063,
+   24.051
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R04",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_02_CLASS_ROOM"
+  },
+  "model": [
+   4.437,
+   -41.899,
+   19.35
+  ],
+  "unity_expected": [
+   4.437,
+   19.35,
+   -41.899
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_05_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -4.877,
+   23.413
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R05",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_03_CLASS_ROOM"
+  },
+  "model": [
+   8.623,
+   -42.537,
+   19.35
+  ],
+  "unity_expected": [
+   8.623,
+   19.35,
+   -42.537
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_06_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -31.838,
+   44.936
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R06",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_04_CLASS_ROOM"
+  },
+  "model": [
+   -18.338,
+   -21.014,
+   19.35
+  ],
+  "unity_expected": [
+   -18.338,
+   19.35,
+   -21.014
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_07_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.133,
+   40.309
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R07",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_05_CLASS_ROOM"
+  },
+  "model": [
+   14.633,
+   -25.641,
+   19.35
+  ],
+  "unity_expected": [
+   14.633,
+   19.35,
+   -25.641
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_08_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.208,
+   23.812
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R08",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_06_CLASS_ROOM"
+  },
+  "model": [
+   -24.708,
+   -42.138,
+   19.35
+  ],
+  "unity_expected": [
+   -24.708,
+   19.35,
+   -42.138
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_09_GIRLS_REST_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.261,
+   34.282
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R09",
+   "roomName": "GIRLS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_07_GIRLS_REST_ROOM"
+  },
+  "model": [
+   -26.761,
+   -31.668,
+   19.35
+  ],
+  "unity_expected": [
+   -26.761,
+   19.35,
+   -31.668
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_10_12_0_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -24.644,
+   45.769
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R10",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -11.144,
+   -20.181,
+   19.35
+  ],
+  "unity_expected": [
+   -11.144,
+   19.35,
+   -20.181
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_11_12_0_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -5.431,
+   39.815
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R11",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   8.069,
+   -26.135,
+   19.35
+  ],
+  "unity_expected": [
+   8.069,
+   19.35,
+   -26.135
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_12_12_0_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -14.522,
+   31.851
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R12",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -1.022,
+   -34.099,
+   19.35
+  ],
+  "unity_expected": [
+   -1.022,
+   19.35,
+   -34.099
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_13_10_9_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -29.645,
+   24.725
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R13",
+   "roomName": "10'9\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -16.145,
+   -41.225,
+   19.35
+  ],
+  "unity_expected": [
+   -16.145,
+   19.35,
+   -41.225
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_lift_14_LIFT_LOBBY",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -7.16,
+   52.121
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R14",
+   "roomName": "LIFT LOBBY",
+   "roomType": "lift",
+   "zone": "TB_2F_Zone_08_LIFT_LOBBY"
+  },
+  "model": [
+   6.34,
+   -13.829,
+   19.35
+  ],
+  "unity_expected": [
+   6.34,
+   19.35,
+   -13.829
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_15_8_0_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.954,
+   35.047
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R15",
+   "roomName": "8'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -20.454,
+   -30.903,
+   19.35
+  ],
+  "unity_expected": [
+   -20.454,
+   19.35,
+   -30.903
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_16_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -33.979,
+   27.75
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R16",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_09_TOILET"
+  },
+  "model": [
+   -20.479,
+   -38.2,
+   19.35
+  ],
+  "unity_expected": [
+   -20.479,
+   19.35,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_17_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.325,
+   27.75
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R17",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_10_TOILET"
+  },
+  "model": [
+   -21.825,
+   -38.2,
+   19.35
+  ],
+  "unity_expected": [
+   -21.825,
+   19.35,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_18_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -36.722,
+   27.75
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R18",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_11_TOILET"
+  },
+  "model": [
+   -23.222,
+   -38.2,
+   19.35
+  ],
+  "unity_expected": [
+   -23.222,
+   19.35,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_19_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -38.043,
+   27.75
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R19",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_12_TOILET"
+  },
+  "model": [
+   -24.543,
+   -38.2,
+   19.35
+  ],
+  "unity_expected": [
+   -24.543,
+   19.35,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_20_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.566,
+   27.75
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R20",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_13_TOILET"
+  },
+  "model": [
+   -26.066,
+   -38.2,
+   19.35
+  ],
+  "unity_expected": [
+   -26.066,
+   19.35,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_21_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.912,
+   27.75
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R21",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_14_TOILET"
+  },
+  "model": [
+   -27.412,
+   -38.2,
+   19.35
+  ],
+  "unity_expected": [
+   -27.412,
+   19.35,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_22_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.283,
+   27.75
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R22",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_15_TOILET"
+  },
+  "model": [
+   -28.783,
+   -38.2,
+   19.35
+  ],
+  "unity_expected": [
+   -28.783,
+   19.35,
+   -38.2
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_23_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -42.319,
+   30.968
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R23",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_16_TOILET"
+  },
+  "model": [
+   -28.819,
+   -34.982,
+   19.35
+  ],
+  "unity_expected": [
+   -28.819,
+   19.35,
+   -34.982
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_24_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -40.948,
+   30.968
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R24",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_17_TOILET"
+  },
+  "model": [
+   -27.448,
+   -34.982,
+   19.35
+  ],
+  "unity_expected": [
+   -27.448,
+   19.35,
+   -34.982
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_25_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.577,
+   30.968
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R25",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_18_TOILET"
+  },
+  "model": [
+   -26.077,
+   -34.982,
+   19.35
+  ],
+  "unity_expected": [
+   -26.077,
+   19.35,
+   -34.982
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_26_GIRLS_WASH_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -35.841,
+   31.315
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R26",
+   "roomName": "GIRLS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_19_GIRLS_WASH_ROOM"
+  },
+  "model": [
+   -22.341,
+   -34.635,
+   19.35
+  ],
+  "unity_expected": [
+   -22.341,
+   19.35,
+   -34.635
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_27_7_0_WIDE_PASSAGE",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -39.529,
+   29.358
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R27",
+   "roomName": "7'0\" WIDE PASSAGE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -26.029,
+   -36.592,
+   19.35
+  ],
+  "unity_expected": [
+   -26.029,
+   19.35,
+   -36.592
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_28_21_6_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -23.805,
+   29.461
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R28",
+   "roomName": "21'6\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -10.305,
+   -36.489,
+   19.35
+  ],
+  "unity_expected": [
+   -10.305,
+   19.35,
+   -36.489
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_29_BOYS_WASH_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.134,
+   62.896
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R29",
+   "roomName": "BOYS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_20_BOYS_WASH_ROOM"
+  },
+  "model": [
+   14.634,
+   -3.054,
+   19.35
+  ],
+  "unity_expected": [
+   14.634,
+   19.35,
+   -3.054
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_30_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   5.348,
+   64.747
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R30",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_21_TOILET"
+  },
+  "model": [
+   18.848,
+   -1.203,
+   19.35
+  ],
+  "unity_expected": [
+   18.848,
+   19.35,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_31_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   3.916,
+   64.747
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R31",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_22_TOILET"
+  },
+  "model": [
+   17.416,
+   -1.203,
+   19.35
+  ],
+  "unity_expected": [
+   17.416,
+   19.35,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_32_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   2.646,
+   64.747
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R32",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_23_TOILET"
+  },
+  "model": [
+   16.146,
+   -1.203,
+   19.35
+  ],
+  "unity_expected": [
+   16.146,
+   19.35,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_33_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   1.166,
+   64.747
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R33",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_24_TOILET"
+  },
+  "model": [
+   14.666,
+   -1.203,
+   19.35
+  ],
+  "unity_expected": [
+   14.666,
+   19.35,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_34_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -0.16,
+   64.747
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R34",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_25_TOILET"
+  },
+  "model": [
+   13.34,
+   -1.203,
+   19.35
+  ],
+  "unity_expected": [
+   13.34,
+   19.35,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_35_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -1.53,
+   64.747
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R35",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_26_TOILET"
+  },
+  "model": [
+   11.97,
+   -1.203,
+   19.35
+  ],
+  "unity_expected": [
+   11.97,
+   19.35,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_36_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -2.938,
+   64.747
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R36",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_27_TOILET"
+  },
+  "model": [
+   10.562,
+   -1.203,
+   19.35
+  ],
+  "unity_expected": [
+   10.562,
+   19.35,
+   -1.203
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_37_10_0_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -3.275,
+   59.149
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R37",
+   "roomName": "10'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   10.225,
+   -6.801,
+   19.35
+  ],
+  "unity_expected": [
+   10.225,
+   19.35,
+   -6.801
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_staff_38_STAFF_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   0.223,
+   52.646
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R38",
+   "roomName": "STAFF ROOM",
+   "roomType": "staff",
+   "zone": "TB_2F_Zone_28_STAFF_ROOM"
+  },
+  "model": [
+   13.723,
+   -13.304,
+   19.35
+  ],
+  "unity_expected": [
+   13.723,
+   19.35,
+   -13.304
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_staff_39_STAFF_HEAD",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.207,
+   53.422
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R39",
+   "roomName": "STAFF HEAD",
+   "roomType": "staff",
+   "zone": "TB_2F_Zone_29_STAFF_HEAD"
+  },
+  "model": [
+   17.707,
+   -12.528,
+   19.35
+  ],
+  "unity_expected": [
+   17.707,
+   19.35,
+   -12.528
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_40_BOYS_REST_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.15,
+   58.125
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R40",
+   "roomName": "BOYS REST ROOM",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_30_BOYS_REST_ROOM"
+  },
+  "model": [
+   17.65,
+   -7.825,
+   19.35
+  ],
+  "unity_expected": [
+   17.65,
+   19.35,
+   -7.825
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_41_12_0_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -15.385,
+   54.057
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R41",
+   "roomName": "12'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -1.885,
+   -11.893,
+   19.35
+  ],
+  "unity_expected": [
+   -1.885,
+   19.35,
+   -11.893
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_corridor_42_23_0_WIDE_CORRIDOR",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -26.239,
+   38.131
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R42",
+   "roomName": "23'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -12.739,
+   -27.819,
+   19.35
+  ],
+  "unity_expected": [
+   -12.739,
+   19.35,
+   -27.819
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_43_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -22.064,
+   61.505
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R43",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_31_CLASS_ROOM"
+  },
+  "model": [
+   -8.564,
+   -4.445,
+   19.35
+  ],
+  "unity_expected": [
+   -8.564,
+   19.35,
+   -4.445
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_classroom_44_CLASS_ROOM",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -18.259,
+   61.505
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R44",
+   "roomName": "CLASS ROOM",
+   "roomType": "classroom",
+   "zone": "TB_2F_Zone_32_CLASS_ROOM"
+  },
+  "model": [
+   -4.759,
+   -4.445,
+   19.35
+  ],
+  "unity_expected": [
+   -4.759,
+   19.35,
+   -4.445
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_toilet_45_TOILET",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   4.932,
+   56.602
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R45",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "TB_2F_Zone_33_TOILET"
+  },
+  "model": [
+   18.432,
+   -9.348,
+   19.35
+  ],
+  "unity_expected": [
+   18.432,
+   19.35,
+   -9.348
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_service_46_Electrical",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -3.227,
+   54.928
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R46",
+   "roomName": "Electrical",
+   "roomType": "service",
+   "zone": "TB_2F_Zone_34_Electrical"
+  },
+  "model": [
+   10.273,
+   -11.022,
+   19.35
+  ],
+  "unity_expected": [
+   10.273,
+   19.35,
+   -11.022
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_service_47_communication",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -2.985,
+   56.825
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R47",
+   "roomName": "communication",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   10.515,
+   -9.125,
+   19.35
+  ],
+  "unity_expected": [
+   10.515,
+   19.35,
+   -9.125
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_service_48_ELECTRICAL",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -12.29,
+   52.031
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R48",
+   "roomName": "ELECTRICAL",
+   "roomType": "service",
+   "zone": "TB_2F_Zone_35_ELECTRICAL"
+  },
+  "model": [
+   1.21,
+   -13.919,
+   19.35
+  ],
+  "unity_expected": [
+   1.21,
+   19.35,
+   -13.919
+  ]
+ },
+ {
+  "name": "NAV_TB_2F_service_49_FIRE_DUCT",
+  "floor": "TB_2F",
+  "block": "TeachingBlock",
+  "kind": "room",
+  "site": [
+   -8.038,
+   47.497
+  ],
+  "rl": 79.35,
+  "props": {
+   "roomId": "TB_2F_R49",
+   "roomName": "FIRE DUCT",
+   "roomType": "service",
+   "zone": "TB_2F_Zone_36_FIRE_DUCT"
+  },
+  "model": [
+   5.462,
+   -18.453,
+   19.35
+  ],
+  "unity_expected": [
+   5.462,
+   19.35,
+   -18.453
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_01_LADIES_WASH_AREA",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -33.715,
+   64.954
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R01",
+   "roomName": "LADIES WASH AREA",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_01_LADIES_WASH_AREA"
+  },
+  "model": [
+   -20.215,
+   -0.996,
+   7.16
+  ],
+  "unity_expected": [
+   -20.215,
+   7.16,
+   -0.996
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_02_FASTFOOD_03",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.932,
+   75.972
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R02",
+   "roomName": "FASTFOOD-03",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_02_FASTFOOD_03"
+  },
+  "model": [
+   12.568,
+   10.022,
+   7.16
+  ],
+  "unity_expected": [
+   12.568,
+   7.16,
+   10.022
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_03_FASTFOOD_01",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.933,
+   67.591
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R03",
+   "roomName": "FASTFOOD -01",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_03_FASTFOOD_01"
+  },
+  "model": [
+   12.567,
+   1.641,
+   7.16
+  ],
+  "unity_expected": [
+   12.567,
+   7.16,
+   1.641
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_04_FASTFOOD_02",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.932,
+   72.0
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R04",
+   "roomName": "FASTFOOD-02",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_04_FASTFOOD_02"
+  },
+  "model": [
+   12.568,
+   6.05,
+   7.16
+  ],
+  "unity_expected": [
+   12.568,
+   7.16,
+   6.05
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_05_BOYS_WASH_ROOM",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   1.135,
+   59.722
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R05",
+   "roomName": "BOYS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_05_BOYS_WASH_ROOM"
+  },
+  "model": [
+   14.635,
+   -6.228,
+   7.16
+  ],
+  "unity_expected": [
+   14.635,
+   7.16,
+   -6.228
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_06_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   5.35,
+   61.573
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R06",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_06_TOILET"
+  },
+  "model": [
+   18.85,
+   -4.377,
+   7.16
+  ],
+  "unity_expected": [
+   18.85,
+   7.16,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_07_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.918,
+   61.573
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R07",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_07_TOILET"
+  },
+  "model": [
+   17.418,
+   -4.377,
+   7.16
+  ],
+  "unity_expected": [
+   17.418,
+   7.16,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_08_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.647,
+   61.573
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R08",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_08_TOILET"
+  },
+  "model": [
+   16.147,
+   -4.377,
+   7.16
+  ],
+  "unity_expected": [
+   16.147,
+   7.16,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_09_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   1.167,
+   61.573
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R09",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_09_TOILET"
+  },
+  "model": [
+   14.667,
+   -4.377,
+   7.16
+  ],
+  "unity_expected": [
+   14.667,
+   7.16,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_10_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.159,
+   61.573
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R10",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_10_TOILET"
+  },
+  "model": [
+   13.341,
+   -4.377,
+   7.16
+  ],
+  "unity_expected": [
+   13.341,
+   7.16,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_11_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -1.528,
+   61.573
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R11",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_11_TOILET"
+  },
+  "model": [
+   11.972,
+   -4.377,
+   7.16
+  ],
+  "unity_expected": [
+   11.972,
+   7.16,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_12_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -2.937,
+   61.573
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R12",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_12_TOILET"
+  },
+  "model": [
+   10.563,
+   -4.377,
+   7.16
+  ],
+  "unity_expected": [
+   10.563,
+   7.16,
+   -4.377
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_13_FASTFOOD_04",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.965,
+   80.361
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R13",
+   "roomName": "FASTFOOD-04",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_13_FASTFOOD_04"
+  },
+  "model": [
+   12.535,
+   14.411,
+   7.16
+  ],
+  "unity_expected": [
+   12.535,
+   7.16,
+   14.411
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_14_KITCHEN",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.802,
+   87.21
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R14",
+   "roomName": "KITCHEN",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_14_KITCHEN"
+  },
+  "model": [
+   12.698,
+   21.26,
+   7.16
+  ],
+  "unity_expected": [
+   12.698,
+   7.16,
+   21.26
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_corridor_15_6_9_WIDE_SERVICE_CORRIDOR",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.631,
+   76.673
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R15",
+   "roomName": "6'9\" WIDE SERVICE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   17.131,
+   10.723,
+   7.16
+  ],
+  "unity_expected": [
+   17.131,
+   7.16,
+   10.723
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_corridor_16_6_9_WIDE_SERVICE_CORRIDOR",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.631,
+   100.232
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R16",
+   "roomName": "6'9\" WIDE SERVICE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   17.131,
+   34.282,
+   7.16
+  ],
+  "unity_expected": [
+   17.131,
+   7.16,
+   34.282
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_17_KITCHEN",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.802,
+   97.702
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R17",
+   "roomName": "KITCHEN",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_15_KITCHEN"
+  },
+  "model": [
+   12.698,
+   31.752,
+   7.16
+  ],
+  "unity_expected": [
+   12.698,
+   7.16,
+   31.752
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_18_KITCHEN",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.802,
+   108.186
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R18",
+   "roomName": "KITCHEN",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_16_KITCHEN"
+  },
+  "model": [
+   12.698,
+   42.236,
+   7.16
+  ],
+  "unity_expected": [
+   12.698,
+   7.16,
+   42.236
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_food_19_GUEST_FOOD_COURT",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -16.798,
+   101.386
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R19",
+   "roomName": "GUEST FOOD COURT",
+   "roomType": "food",
+   "zone": "AB_FC_Zone_17_GUEST_FOOD_COURT"
+  },
+  "model": [
+   -3.298,
+   35.436,
+   7.16
+  ],
+  "unity_expected": [
+   -3.298,
+   7.16,
+   35.436
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_stair_20_STEPS_UP_TO_UPPER_G_LVL",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.851,
+   64.468
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R20",
+   "roomName": "STEPS UP TO UPPER G.LVL",
+   "roomType": "stair",
+   "zone": "AB_FC_Zone_18_STEPS_UP_TO_UPPER_G_LVL"
+  },
+  "model": [
+   12.649,
+   -1.482,
+   7.16
+  ],
+  "unity_expected": [
+   12.649,
+   7.16,
+   -1.482
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_21_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -31.695,
+   75.037
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R21",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_19_TOILET"
+  },
+  "model": [
+   -18.195,
+   9.087,
+   7.16
+  ],
+  "unity_expected": [
+   -18.195,
+   7.16,
+   9.087
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_22_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -32.203,
+   73.818
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R22",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_20_TOILET"
+  },
+  "model": [
+   -18.703,
+   7.868,
+   7.16
+  ],
+  "unity_expected": [
+   -18.703,
+   7.16,
+   7.868
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_23_HAND_WASH_AREA_GENTS",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -33.014,
+   69.632
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R23",
+   "roomName": "HAND WASH AREA GENTS",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_21_HAND_WASH_AREA_GENTS"
+  },
+  "model": [
+   -19.514,
+   3.682,
+   7.16
+  ],
+  "unity_expected": [
+   -19.514,
+   7.16,
+   3.682
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_24_GENTS_WASH_ROOM",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -30.657,
+   73.329
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R24",
+   "roomName": "GENTS WASH ROOM",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_22_GENTS_WASH_ROOM"
+  },
+  "model": [
+   -17.157,
+   7.379,
+   7.16
+  ],
+  "unity_expected": [
+   -17.157,
+   7.16,
+   7.379
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_corridor_25_10_0_WIDE_CORRIDOR",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -5.35,
+   57.827
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R25",
+   "roomName": "10'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   8.15,
+   -8.123,
+   7.16
+  ],
+  "unity_expected": [
+   8.15,
+   7.16,
+   -8.123
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_lobby_26_LOBBY",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.385,
+   62.401
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R26",
+   "roomName": "LOBBY",
+   "roomType": "lobby",
+   "zone": "AB_FC_Zone_23_LOBBY"
+  },
+  "model": [
+   5.115,
+   -3.549,
+   7.16
+  ],
+  "unity_expected": [
+   5.115,
+   7.16,
+   -3.549
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_lift_27_LIFT",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -9.368,
+   102.44
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R27",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": "AB_FC_Zone_24_LIFT"
+  },
+  "model": [
+   4.132,
+   36.49,
+   7.16
+  ],
+  "unity_expected": [
+   4.132,
+   7.16,
+   36.49
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_28_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -33.986,
+   60.511
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R28",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_25_TOILET"
+  },
+  "model": [
+   -20.486,
+   -5.439,
+   7.16
+  ],
+  "unity_expected": [
+   -20.486,
+   7.16,
+   -5.439
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_29_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -35.407,
+   60.511
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R29",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_26_TOILET"
+  },
+  "model": [
+   -21.907,
+   -5.439,
+   7.16
+  ],
+  "unity_expected": [
+   -21.907,
+   7.16,
+   -5.439
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_30_LADIES_WASH_ROOM",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -34.346,
+   61.907
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R30",
+   "roomName": "LADIES WASH ROOM",
+   "roomType": "toilet",
+   "zone": "AB_FC_Zone_27_LADIES_WASH_ROOM"
+  },
+  "model": [
+   -20.846,
+   -4.043,
+   7.16
+  ],
+  "unity_expected": [
+   -20.846,
+   7.16,
+   -4.043
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_corridor_31_10_0_WIDE_CORRIDOR",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.741,
+   58.627
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R31",
+   "roomName": "10'0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   4.759,
+   -7.323,
+   7.16
+  ],
+  "unity_expected": [
+   4.759,
+   7.16,
+   -7.323
+  ]
+ },
+ {
+  "name": "NAV_AB_FC_toilet_32_TOILET",
+  "floor": "AB_FC",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   4.931,
+   56.602
+  ],
+  "rl": 67.16,
+  "props": {
+   "roomId": "AB_FC_R32",
+   "roomName": "TOILET",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   18.431,
+   -9.348,
+   7.16
+  ],
+  "unity_expected": [
+   18.431,
+   7.16,
+   -9.348
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_room_01_DN_DN",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -7.138,
+   108.46
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R01",
+   "roomName": "DN DN",
+   "roomType": "room",
+   "zone": ""
+  },
+  "model": [
+   6.362,
+   42.51,
+   11.73
+  ],
+  "unity_expected": [
+   6.362,
+   11.73,
+   42.51
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_open_02_LANDSCAPE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -23.654,
+   92.01
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R02",
+   "roomName": "LANDSCAPE",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   -10.154,
+   26.06,
+   11.73
+  ],
+  "unity_expected": [
+   -10.154,
+   11.73,
+   26.06
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_open_03_LANDSCAPE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -27.794,
+   82.812
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R03",
+   "roomName": "LANDSCAPE",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   -14.294,
+   16.862,
+   11.73
+  ],
+  "unity_expected": [
+   -14.294,
+   11.73,
+   16.862
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_open_04_LANDSCAPE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -17.197,
+   81.159
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R04",
+   "roomName": "LANDSCAPE",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   -3.697,
+   15.209,
+   11.73
+  ],
+  "unity_expected": [
+   -3.697,
+   11.73,
+   15.209
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_open_05_LANDSCAPE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   0.045,
+   81.159
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R05",
+   "roomName": "LANDSCAPE",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   13.545,
+   15.209,
+   11.73
+  ],
+  "unity_expected": [
+   13.545,
+   11.73,
+   15.209
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_open_06_LANDSCAPE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -5.524,
+   79.214
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R06",
+   "roomName": "LANDSCAPE",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   7.976,
+   13.264,
+   11.73
+  ],
+  "unity_expected": [
+   7.976,
+   11.73,
+   13.264
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_open_07_LANDSCAPE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -11.627,
+   79.214
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R07",
+   "roomName": "LANDSCAPE",
+   "roomType": "open",
+   "zone": ""
+  },
+  "model": [
+   1.873,
+   13.264,
+   11.73
+  ],
+  "unity_expected": [
+   1.873,
+   11.73,
+   13.264
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_entrance_08_8_0_WIDE_ENTRANCE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.586,
+   82.113
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R08",
+   "roomName": "8'-0\" WIDE ENTRANCE",
+   "roomType": "entrance",
+   "zone": "AB_GF_Zone_01_8_0_WIDE_ENTRANCE"
+  },
+  "model": [
+   4.914,
+   16.163,
+   11.73
+  ],
+  "unity_expected": [
+   4.914,
+   11.73,
+   16.163
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_lift_09_LIFT",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -9.176,
+   102.434
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R09",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   4.324,
+   36.484,
+   11.73
+  ],
+  "unity_expected": [
+   4.324,
+   11.73,
+   36.484
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_food_10_DRINKING_WATER",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -7.238,
+   102.44
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R10",
+   "roomName": "DRINKING WATER",
+   "roomType": "food",
+   "zone": ""
+  },
+  "model": [
+   6.262,
+   36.49,
+   11.73
+  ],
+  "unity_expected": [
+   6.262,
+   11.73,
+   36.49
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_toilet_11_GENTS_TOILET_15_6_X6_5",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.071,
+   106.861
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R11",
+   "roomName": "GENTS TOILET 15'-6\"X6'-5\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   13.429,
+   40.911,
+   11.73
+  ],
+  "unity_expected": [
+   13.429,
+   11.73,
+   40.911
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_toilet_12_TOILET_4_0_X_5_0",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.759,
+   107.319
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R12",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   17.259,
+   41.369,
+   11.73
+  ],
+  "unity_expected": [
+   17.259,
+   11.73,
+   41.369
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_toilet_13_TOILET_4_0_X_5_0",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.435,
+   107.319
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R13",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": "AB_GF_Zone_02_TOILET_4_0_X_5_0"
+  },
+  "model": [
+   15.935,
+   41.369,
+   11.73
+  ],
+  "unity_expected": [
+   15.935,
+   11.73,
+   41.369
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_toilet_14_TOILET_4_0_X_5_0",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.759,
+   109.584
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R14",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   17.259,
+   43.634,
+   11.73
+  ],
+  "unity_expected": [
+   17.259,
+   11.73,
+   43.634
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_toilet_15_TOILET_4_0_X_5_0",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.435,
+   109.584
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R15",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   15.935,
+   43.634,
+   11.73
+  ],
+  "unity_expected": [
+   15.935,
+   11.73,
+   43.634
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_toilet_16_TOILET_4_0_X_5_0",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   1.113,
+   109.584
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R16",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   14.613,
+   43.634,
+   11.73
+  ],
+  "unity_expected": [
+   14.613,
+   11.73,
+   43.634
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_toilet_17_LADIES_TOILET_19_6_X7_2",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.314,
+   111.262
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R17",
+   "roomName": "LADIES TOILET 19'-6\"X7'-2\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   15.814,
+   45.312,
+   11.73
+  ],
+  "unity_expected": [
+   15.814,
+   11.73,
+   45.312
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_service_18_ELECTRICAL_PANEL_ROOM_8_8_X5_1",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -2.565,
+   110.815
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R18",
+   "roomName": "ELECTRICAL PANEL ROOM 8'-8\"X5'-11\"",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   10.935,
+   44.865,
+   11.73
+  ],
+  "unity_expected": [
+   10.935,
+   11.73,
+   44.865
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_service_19_COM_DUCT",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -4.041,
+   110.508
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R19",
+   "roomName": "COM. DUCT",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   9.459,
+   44.558,
+   11.73
+  ],
+  "unity_expected": [
+   9.459,
+   11.73,
+   44.558
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_entrance_20_ADMIN_BLOCK_ENTRANCE",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -9.247,
+   76.921
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R20",
+   "roomName": "ADMIN BLOCK ENTRANCE",
+   "roomType": "entrance",
+   "zone": ""
+  },
+  "model": [
+   4.253,
+   10.971,
+   11.73
+  ],
+  "unity_expected": [
+   4.253,
+   11.73,
+   10.971
+  ]
+ },
+ {
+  "name": "NAV_AB_GF_room_21_FUTURE_EXPANSION",
+  "floor": "AB_GF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.6,
+   90.744
+  ],
+  "rl": 71.73,
+  "props": {
+   "roomId": "AB_GF_R21",
+   "roomName": "FUTURE EXPANSION",
+   "roomType": "room",
+   "zone": ""
+  },
+  "model": [
+   4.9,
+   24.794,
+   11.73
+  ],
+  "unity_expected": [
+   4.9,
+   11.73,
+   24.794
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_food_01_DRINKING_WATER",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -7.238,
+   102.44
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R01",
+   "roomName": "DRINKING WATER",
+   "roomType": "food",
+   "zone": ""
+  },
+  "model": [
+   6.262,
+   36.49,
+   15.54
+  ],
+  "unity_expected": [
+   6.262,
+   15.54,
+   36.49
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_entrance_02_ADMIN_BLOCK_ENTRANCE",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.536,
+   76.723
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R02",
+   "roomName": "ADMIN BLOCK ENTRANCE",
+   "roomType": "entrance",
+   "zone": ""
+  },
+  "model": [
+   4.964,
+   10.773,
+   15.54
+  ],
+  "unity_expected": [
+   4.964,
+   15.54,
+   10.773
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_service_03_Electrical",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -2.539,
+   111.331
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R03",
+   "roomName": "Electrical",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   10.961,
+   45.381,
+   15.54
+  ],
+  "unity_expected": [
+   10.961,
+   15.54,
+   45.381
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_room_04_71_73_38_6_DN",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -23.372,
+   81.274
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R04",
+   "roomName": "71.73(+38'-6\") DN",
+   "roomType": "room",
+   "zone": "AB_FF_Zone_01_71_73_38_6_DN"
+  },
+  "model": [
+   -9.872,
+   15.324,
+   15.54
+  ],
+  "unity_expected": [
+   -9.872,
+   15.54,
+   15.324
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_toilet_05_GENTS_TOILET_15_6_X6_5",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.071,
+   106.861
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R05",
+   "roomName": "GENTS TOILET 15'-6\"X6'-5\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   13.429,
+   40.911,
+   15.54
+  ],
+  "unity_expected": [
+   13.429,
+   15.54,
+   40.911
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_toilet_06_TOILET_4_0_X_5_0",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.759,
+   107.319
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R06",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   17.259,
+   41.369,
+   15.54
+  ],
+  "unity_expected": [
+   17.259,
+   15.54,
+   41.369
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_toilet_07_TOILET_4_0_X_5_0",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.435,
+   107.319
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R07",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": "AB_FF_Zone_02_TOILET_4_0_X_5_0"
+  },
+  "model": [
+   15.935,
+   41.369,
+   15.54
+  ],
+  "unity_expected": [
+   15.935,
+   15.54,
+   41.369
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_toilet_08_TOILET_4_0_X_5_0",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.759,
+   109.584
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R08",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   17.259,
+   43.634,
+   15.54
+  ],
+  "unity_expected": [
+   17.259,
+   15.54,
+   43.634
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_toilet_09_TOILET_4_0_X_5_0",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.435,
+   109.584
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R09",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   15.935,
+   43.634,
+   15.54
+  ],
+  "unity_expected": [
+   15.935,
+   15.54,
+   43.634
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_toilet_10_TOILET_4_0_X_5_0",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   1.113,
+   109.584
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R10",
+   "roomName": "TOILET 4'-0\" X 5'-0\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   14.613,
+   43.634,
+   15.54
+  ],
+  "unity_expected": [
+   14.613,
+   15.54,
+   43.634
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_toilet_11_LADIES_TOILET_19_6_X7_2",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.314,
+   111.262
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R11",
+   "roomName": "LADIES TOILET 19'-6\"X7'-2\"",
+   "roomType": "toilet",
+   "zone": ""
+  },
+  "model": [
+   15.814,
+   45.312,
+   15.54
+  ],
+  "unity_expected": [
+   15.814,
+   15.54,
+   45.312
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_lift_12_LIFT",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -9.176,
+   102.434
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R12",
+   "roomName": "LIFT",
+   "roomType": "lift",
+   "zone": ""
+  },
+  "model": [
+   4.324,
+   36.484,
+   15.54
+  ],
+  "unity_expected": [
+   4.324,
+   15.54,
+   36.484
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_corridor_13_CORRIDOR_7_6_WIDE",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -5.654,
+   103.03
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R13",
+   "roomName": "CORRIDOR 7'-6\" WIDE",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   7.846,
+   37.08,
+   15.54
+  ],
+  "unity_expected": [
+   7.846,
+   15.54,
+   37.08
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_corridor_14_8_8_WIDE_CORRIDOR",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -2.973,
+   107.314
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R14",
+   "roomName": "8'-8\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   10.527,
+   41.364,
+   15.54
+  ],
+  "unity_expected": [
+   10.527,
+   15.54,
+   41.364
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_service_15_COM_DUCT",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -4.041,
+   110.694
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R15",
+   "roomName": "COM. DUCT",
+   "roomType": "service",
+   "zone": "AB_FF_Zone_03_COM_DUCT"
+  },
+  "model": [
+   9.459,
+   44.744,
+   15.54
+  ],
+  "unity_expected": [
+   9.459,
+   15.54,
+   44.744
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_office_16_WORK_STATION",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -10.446,
+   88.968
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R16",
+   "roomName": "WORK STATION",
+   "roomType": "office",
+   "zone": "AB_FF_Zone_04_WORK_STATION"
+  },
+  "model": [
+   3.054,
+   23.018,
+   15.54
+  ],
+  "unity_expected": [
+   3.054,
+   15.54,
+   23.018
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_17_RECRUITERS_LOUNGE",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -0.183,
+   101.468
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R17",
+   "roomName": "RECRUITERS\u2019 LOUNGE",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_05_RECRUITERS_LOUNGE"
+  },
+  "model": [
+   13.317,
+   35.518,
+   15.54
+  ],
+  "unity_expected": [
+   13.317,
+   15.54,
+   35.518
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_lobby_18_WAITING_AREA",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -2.346,
+   85.788
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R18",
+   "roomName": "WAITING AREA",
+   "roomType": "lobby",
+   "zone": "AB_FF_Zone_06_WAITING_AREA"
+  },
+  "model": [
+   11.154,
+   19.838,
+   15.54
+  ],
+  "unity_expected": [
+   11.154,
+   15.54,
+   19.838
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_corridor_19_6_0_WIDE_CORRIDOR",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -6.549,
+   90.788
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R19",
+   "roomName": "6'-0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   6.951,
+   24.838,
+   15.54
+  ],
+  "unity_expected": [
+   6.951,
+   15.54,
+   24.838
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_lobby_20_RECEPTION",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -10.823,
+   96.706
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R20",
+   "roomName": "RECEPTION",
+   "roomType": "lobby",
+   "zone": "AB_FF_Zone_07_RECEPTION"
+  },
+  "model": [
+   2.677,
+   30.756,
+   15.54
+  ],
+  "unity_expected": [
+   2.677,
+   15.54,
+   30.756
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_office_21_PLACEMENT_OFFICER",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -10.45,
+   93.207
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R21",
+   "roomName": "PLACEMENT OFFICER",
+   "roomType": "office",
+   "zone": "AB_FF_Zone_08_PLACEMENT_OFFICER"
+  },
+  "model": [
+   3.05,
+   27.257,
+   15.54
+  ],
+  "unity_expected": [
+   3.05,
+   15.54,
+   27.257
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_lobby_22_LOBBY_22_9_X_22_3",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.284,
+   98.145
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R22",
+   "roomName": "LOBBY 22'-9\" X 22'-3\"",
+   "roomType": "lobby",
+   "zone": ""
+  },
+  "model": [
+   5.216,
+   32.195,
+   15.54
+  ],
+  "unity_expected": [
+   5.216,
+   15.54,
+   32.195
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_23_INTERVIEW_CUBLCLE_01",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -4.155,
+   89.934
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R23",
+   "roomName": "INTERVIEW CUBLCLE -01",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_09_INTERVIEW_CUBLCLE_01"
+  },
+  "model": [
+   9.345,
+   23.984,
+   15.54
+  ],
+  "unity_expected": [
+   9.345,
+   15.54,
+   23.984
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_24_INTERVIEW_CUBLCLE_02",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -1.541,
+   90.011
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R24",
+   "roomName": "INTERVIEW CUBLCLE -02",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_10_INTERVIEW_CUBLCLE_02"
+  },
+  "model": [
+   11.959,
+   24.061,
+   15.54
+  ],
+  "unity_expected": [
+   11.959,
+   15.54,
+   24.061
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_25_INTERVIEW_CUBLCLE_03",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   0.849,
+   90.011
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R25",
+   "roomName": "INTERVIEW CUBLCLE -03",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_11_INTERVIEW_CUBLCLE_03"
+  },
+  "model": [
+   14.349,
+   24.061,
+   15.54
+  ],
+  "unity_expected": [
+   14.349,
+   15.54,
+   24.061
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_26_INTERVIEW_CUBLCLE_04",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.239,
+   90.011
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R26",
+   "roomName": "INTERVIEW CUBLCLE -04",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_12_INTERVIEW_CUBLCLE_04"
+  },
+  "model": [
+   16.739,
+   24.061,
+   15.54
+  ],
+  "unity_expected": [
+   16.739,
+   15.54,
+   24.061
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_27_INTERVIEW_CUBLCLE_05",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.241,
+   86.35
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R27",
+   "roomName": "INTERVIEW CUBLCLE -05",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_13_INTERVIEW_CUBLCLE_05"
+  },
+  "model": [
+   16.741,
+   20.4,
+   15.54
+  ],
+  "unity_expected": [
+   16.741,
+   15.54,
+   20.4
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_28_INTERVIEW_CUBLCLE_06",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   3.239,
+   83.565
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R28",
+   "roomName": "INTERVIEW CUBLCLE -06",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_14_INTERVIEW_CUBLCLE_06"
+  },
+  "model": [
+   16.739,
+   17.615,
+   15.54
+  ],
+  "unity_expected": [
+   16.739,
+   15.54,
+   17.615
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_29_INTERVIEW_CUBLCLE_07",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   0.849,
+   83.565
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R29",
+   "roomName": "INTERVIEW CUBLCLE -07",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_15_INTERVIEW_CUBLCLE_07"
+  },
+  "model": [
+   14.349,
+   17.615,
+   15.54
+  ],
+  "unity_expected": [
+   14.349,
+   15.54,
+   17.615
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_30_INTERVIEW_CUBLCLE_08",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -1.592,
+   83.565
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R30",
+   "roomName": "INTERVIEW CUBLCLE -08",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_16_INTERVIEW_CUBLCLE_08"
+  },
+  "model": [
+   11.908,
+   17.615,
+   15.54
+  ],
+  "unity_expected": [
+   11.908,
+   15.54,
+   17.615
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_31_INTERVIEW_CUBLCLE_09",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -3.981,
+   83.565
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R31",
+   "roomName": "INTERVIEW CUBLCLE -09",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_17_INTERVIEW_CUBLCLE_09"
+  },
+  "model": [
+   9.519,
+   17.615,
+   15.54
+  ],
+  "unity_expected": [
+   9.519,
+   15.54,
+   17.615
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_32_INTERVIEW_CUBLCLE_10",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -6.322,
+   83.565
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R32",
+   "roomName": "INTERVIEW CUBLCLE -10",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_18_INTERVIEW_CUBLCLE_10"
+  },
+  "model": [
+   7.178,
+   17.615,
+   15.54
+  ],
+  "unity_expected": [
+   7.178,
+   15.54,
+   17.615
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_meeting_33_GROUP_DISCUSSION_ROOM_16_0_X_2",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   2.058,
+   98.505
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R33",
+   "roomName": "GROUP DISCUSSION ROOM 16'-0\" X 25'-5\"",
+   "roomType": "meeting",
+   "zone": "AB_FF_Zone_19_GROUP_DISCUSSION_ROOM_16_0_X_25_5"
+  },
+  "model": [
+   15.558,
+   32.555,
+   15.54
+  ],
+  "unity_expected": [
+   15.558,
+   15.54,
+   32.555
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_lobby_34_WAITING_11_2_X_25_5",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -2.605,
+   98.439
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R34",
+   "roomName": "WAITING 11'-2\" X 25'-5\"",
+   "roomType": "lobby",
+   "zone": ""
+  },
+  "model": [
+   10.895,
+   32.489,
+   15.54
+  ],
+  "unity_expected": [
+   10.895,
+   15.54,
+   32.489
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_lobby_35_WAITING_28_3_X_18_9",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -17.323,
+   101.697
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R35",
+   "roomName": "WAITING 28'-3\" X 18'-9\"",
+   "roomType": "lobby",
+   "zone": ""
+  },
+  "model": [
+   -3.823,
+   35.747,
+   15.54
+  ],
+  "unity_expected": [
+   -3.823,
+   15.54,
+   35.747
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_office_36_ASST_PLACEMENT_OFFICER",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.23,
+   91.567
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R36",
+   "roomName": "ASST- PLACEMENT OFFICER",
+   "roomType": "office",
+   "zone": "AB_FF_Zone_20_ASST_PLACEMENT_OFFICER"
+  },
+  "model": [
+   5.27,
+   25.617,
+   15.54
+  ],
+  "unity_expected": [
+   5.27,
+   15.54,
+   25.617
+  ]
+ },
+ {
+  "name": "NAV_AB_FF_food_37_PANTRY",
+  "floor": "AB_FF",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -7.268,
+   86.327
+  ],
+  "rl": 75.54,
+  "props": {
+   "roomId": "AB_FF_R37",
+   "roomName": "PANTRY",
+   "roomType": "food",
+   "zone": "AB_FF_Zone_21_PANTRY"
+  },
+  "model": [
+   6.232,
+   20.377,
+   15.54
+  ],
+  "unity_expected": [
+   6.232,
+   15.54,
+   20.377
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_service_01_Electrical",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -2.544,
+   111.331
+  ],
+  "rl": 79.65,
+  "props": {
+   "roomId": "AB_2F_R01",
+   "roomName": "Electrical",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   10.956,
+   45.381,
+   19.65
+  ],
+  "unity_expected": [
+   10.956,
+   19.65,
+   45.381
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_service_02_COM_DUCT",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -4.041,
+   110.705
+  ],
+  "rl": 79.65,
+  "props": {
+   "roomId": "AB_2F_R02",
+   "roomName": "COM. DUCT",
+   "roomType": "service",
+   "zone": ""
+  },
+  "model": [
+   9.459,
+   44.755,
+   19.65
+  ],
+  "unity_expected": [
+   9.459,
+   19.65,
+   44.755
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_meeting_03_13_5_WIDE_SEMINAR_STAGE",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -17.967,
+   80.068
+  ],
+  "rl": 79.65,
+  "props": {
+   "roomId": "AB_2F_R03",
+   "roomName": "13'-5\" WIDE SEMINAR STAGE",
+   "roomType": "meeting",
+   "zone": "AB_2F_Zone_01_13_5_WIDE_SEMINAR_STAGE"
+  },
+  "model": [
+   -4.467,
+   14.118,
+   19.65
+  ],
+  "unity_expected": [
+   -4.467,
+   19.65,
+   14.118
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_corridor_04_6_7_WIDE_CORRIDOR",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -20.634,
+   87.537
+  ],
+  "rl": 79.65,
+  "props": {
+   "roomId": "AB_2F_R04",
+   "roomName": "6'-7\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   -7.134,
+   21.587,
+   19.65
+  ],
+  "unity_expected": [
+   -7.134,
+   19.65,
+   21.587
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_corridor_05_4_0_WIDE_CORRIDOR",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -11.405,
+   95.358
+  ],
+  "rl": 79.65,
+  "props": {
+   "roomId": "AB_2F_R05",
+   "roomName": "4'-0\" WIDE CORRIDOR",
+   "roomType": "corridor",
+   "zone": ""
+  },
+  "model": [
+   2.095,
+   29.408,
+   19.65
+  ],
+  "unity_expected": [
+   2.095,
+   19.65,
+   29.408
+  ]
+ },
+ {
+  "name": "NAV_AB_2F_Gallery_FrontCorridor",
+  "floor": "AB_2F",
+  "block": "AdministrativeBlock",
+  "kind": "room",
+  "site": [
+   -8.0,
+   95.1
+  ],
+  "rl": 83.21,
+  "props": {
+   "roomName": "Upper gallery 4'0\" corridor",
+   "roomType": "corridor"
+  },
+  "model": [
+   5.5,
+   29.15,
+   23.21
+  ],
+  "unity_expected": [
+   5.5,
+   23.21,
+   29.15
+  ]
+ },
+ {
+  "name": "NAV_TB_NorthEntranceSteps_Bottom",
+  "floor": "site",
+  "block": "TeachingBlock",
+  "kind": "entrance",
+  "site": [
+   -12.900000000000002,
+   69.1
+  ],
+  "rl": 70.51,
+  "props": {
+   "connectsTo": "NAV_TB_NorthEntranceSteps_Top"
+  },
+  "model": [
+   0.6,
+   3.15,
+   10.51
+  ],
+  "unity_expected": [
+   0.6,
+   10.51,
+   3.15
+  ]
+ },
+ {
+  "name": "NAV_TB_NorthEntranceSteps_Top",
+  "floor": "entry",
+  "block": "TeachingBlock",
+  "kind": "entrance",
+  "site": [
+   -12.900000000000002,
+   65.35
+  ],
+  "rl": 71.73,
+  "props": {
+   "connectsTo": "NAV_TB_NorthEntranceSteps_Bottom"
+  },
+  "model": [
+   0.6,
+   -0.6,
+   11.73
+  ],
+  "unity_expected": [
+   0.6,
+   11.73,
+   -0.6
+  ]
+ },
+ {
+  "name": "NAV_AB_EntranceSteps_Bottom",
+  "floor": "site",
+  "block": "AdministrativeBlock",
+  "kind": "entrance",
+  "site": [
+   -8.5,
+   76.80000000000003
+  ],
+  "rl": 70.51,
+  "props": {
+   "connectsTo": "NAV_AB_EntranceSteps_Top"
+  },
+  "model": [
+   5.0,
+   10.85,
+   10.51
+  ],
+  "unity_expected": [
+   5.0,
+   10.51,
+   10.85
+  ]
+ },
+ {
+  "name": "NAV_AB_EntranceSteps_Top",
+  "floor": "entry",
+  "block": "AdministrativeBlock",
+  "kind": "entrance",
+  "site": [
+   -8.5,
+   81.60000000000001
+  ],
+  "rl": 71.73,
+  "props": {
+   "connectsTo": "NAV_AB_EntranceSteps_Bottom"
+  },
+  "model": [
+   5.0,
+   15.65,
+   11.73
+  ],
+  "unity_expected": [
+   5.0,
+   11.73,
+   15.65
+  ]
+ },
+ {
+  "name": "NAV_AB_WestSteps_Bottom",
+  "floor": "site",
+  "block": "AdministrativeBlock",
+  "kind": "entrance",
+  "site": [
+   -23.550000000000004,
+   76.80000000000003
+  ],
+  "rl": 70.51,
+  "props": {
+   "connectsTo": "NAV_AB_WestSteps_Top"
+  },
+  "model": [
+   -10.05,
+   10.85,
+   10.51
+  ],
+  "unity_expected": [
+   -10.05,
+   10.51,
+   10.85
+  ]
+ },
+ {
+  "name": "NAV_AB_WestSteps_Top",
+  "floor": "entry",
+  "block": "AdministrativeBlock",
+  "kind": "entrance",
+  "site": [
+   -23.550000000000004,
+   81.60000000000001
+  ],
+  "rl": 71.73,
+  "props": {
+   "connectsTo": "NAV_AB_WestSteps_Bottom"
+  },
+  "model": [
+   -10.05,
+   15.65,
+   11.73
+  ],
+  "unity_expected": [
+   -10.05,
+   11.73,
+   15.65
+  ]
+ }
+]

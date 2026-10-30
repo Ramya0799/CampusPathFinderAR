@@ -1,0 +1,12 @@
+{
+  "name": "pathfinder-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --prefix PathFinderAR-main dev",
+    "build": "pnpm --prefix PathFinderAR-main build",
+    "start": "pnpm --prefix PathFinderAR-main start",
+    "check": "pnpm --prefix PathFinderAR-main check",
+    "test": "pnpm --prefix PathFinderAR-main test"
+  }
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  AndroidManifest.xml — PathFinderAR Unity Android Plugin Override
+  ─────────────────────────────────────────────────────────────────
+  Place this file at: Assets/Plugins/Android/AndroidManifest.xml
+  Unity merges it with its generated manifest during build.
+
+  Permissions required:
+    CAMERA            — AR camera background (ARCameraManager)
+    ACCESS_FINE_LOCATION  — High-accuracy GPS for outdoor navigation
+    ACCESS_COARSE_LOCATION — Fallback coarse location
+    INTERNET          — PathFinder API calls via UnityWebRequest
+    ACCESS_NETWORK_STATE  — Network connectivity check
+
+  android:usesCleartextTraffic — Allows plain HTTP traffic for dev server
+    (e.g. http://192.168.x.x:3000)
+
+  android:hardwareAccelerated — Required for ARCore rendering
+
+  IMPORTANT — ARCore requirements:
+    • minSdkVersion must be 24 or higher (ARCore requirement)
+    • targetSdkVersion should match your Unity build settings
+    • The AR required / optional meta-data controls whether ARCore
+      is mandatory (AR required) or optional (AR optional).
+      Change to "required" if your app cannot function without AR.
+-->
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pathfinder.campusnavigation">
+
+    <!-- ── Permissions ──────────────────────────────────────────────── -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- Camera feature declaration (required for ARCore) -->
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+    <!-- ── Application ──────────────────────────────────────────────── -->
+    <application
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/app_icon">
+
+        <!-- ARCore: set to "required" for PathFinder AR navigation -->
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required"/>
+
+        <activity
+            android:name="com.unity3d.player.UnityPlayerGameActivity"
+            android:theme="@style/BaseUnityGameActivityTheme"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:resizeableActivity="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <!-- Deep Link Handler: pathfinder://navigate?start=...&dest=... -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="pathfinder" android:host="navigate"/>
+            </intent-filter>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+            <meta-data android:name="android.app.lib_name" android:value="game"/>
+        </activity>
+
+    </application>
+
+</manifest>

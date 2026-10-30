@@ -1,0 +1,53 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs & temp files
+*.log
+logcat.txt
+backup_res/
+bin/
+tools/
+git_backups/
+.vs/
+.idea/
+
+# Template / unused project
+My project/
+
+# Unity generated folders
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/.utmp/
+**/*.DotSettings.user
+**/.gradle/
+
+# Android build artifacts
+*.apk
+*.aab
+**/PathfinderAR_BurstDebugInformation_DoNotShip/
+
+# Node / Web App generated folders
+**/node_modules/
+**/.pnpm-store/
+**/dist/
+**/.manus-logs/
+**/.vercel/
+
+# Environment variables & SSL certificates
+**/.env
+**/.env.*
+cert.key
+cert.crt
+**/cert.key
+**/cert.crt
+
+# Build outputs & caches
+.cache/
+.parcel-cache/

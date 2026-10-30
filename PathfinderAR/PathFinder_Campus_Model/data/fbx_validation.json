@@ -1,0 +1,303 @@
+[
+ {
+  "file": "PathFinder_Campus_3D.fbx",
+  "sizeMB": 3.63,
+  "header": {
+   "fbxVersion": 7400,
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": -1,
+   "CoordAxis": 0,
+   "CoordAxisSign": -1,
+   "UnitScaleFactor": 100.0,
+   "OriginalUnitScaleFactor": 100.0
+  },
+  "objects": 759,
+  "meshes": 324,
+  "empties": 435,
+  "triangles": 153503,
+  "vertices": 91155,
+  "materials": [
+   "PF_Existing",
+   "PF_Gallery",
+   "PF_Glass",
+   "PF_Lawn",
+   "PF_Marker",
+   "PF_Plaza",
+   "PF_Railing",
+   "PF_Road",
+   "PF_Roof",
+   "PF_Slab",
+   "PF_Stage",
+   "PF_Stair",
+   "PF_Steps",
+   "PF_Terrain",
+   "PF_Wall",
+   "PF_Zone_classroom",
+   "PF_Zone_entrance",
+   "PF_Zone_food",
+   "PF_Zone_lift",
+   "PF_Zone_lobby",
+   "PF_Zone_meeting",
+   "PF_Zone_office",
+   "PF_Zone_open",
+   "PF_Zone_room",
+   "PF_Zone_service",
+   "PF_Zone_staff",
+   "PF_Zone_stair",
+   "PF_Zone_toilet"
+  ],
+  "meshesWithoutMaterial": [],
+  "objectsWithNonUnitScale": [],
+  "bboxMin_m": [
+   -64.76,
+   -0.85,
+   -113.39
+  ],
+  "bboxMax_m": [
+   62.76,
+   32.0,
+   59.05
+  ],
+  "bboxSize_m": [
+   127.52,
+   32.85,
+   172.44
+  ],
+  "markers": {
+   "PF_Origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "PF_Marker_PlanRight_10m": [
+    -10.0,
+    -0.0,
+    0.0
+   ],
+   "PF_Marker_PlanUp_10m": [
+    0.0,
+    -0.0,
+    10.0
+   ],
+   "PF_Marker_Up_10m": [
+    -0.0,
+    10.0,
+    0.0
+   ],
+   "PF_TrueNorth_10m": [
+    9.962,
+    0.0,
+    0.872
+   ]
+  },
+  "rootPresent": true,
+  "objectsWithPfProps": 754,
+  "floors": [
+   "AB_2F",
+   "AB_FC",
+   "AB_FF",
+   "AB_GF",
+   "TB_1F",
+   "TB_2F",
+   "TB_GF",
+   "TB_LG01",
+   "TB_LG02",
+   "TB_LG03"
+  ],
+  "navAnchors": 414,
+  "roomZones": 245
+ },
+ {
+  "file": "PathFinder_Admin_Block.fbx",
+  "sizeMB": 0.95,
+  "header": {
+   "fbxVersion": 7400,
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": -1,
+   "CoordAxis": 0,
+   "CoordAxisSign": -1,
+   "UnitScaleFactor": 100.0,
+   "OriginalUnitScaleFactor": 100.0
+  },
+  "objects": 210,
+  "meshes": 83,
+  "empties": 127,
+  "triangles": 40030,
+  "vertices": 21362,
+  "materials": [
+   "PF_Gallery",
+   "PF_Glass",
+   "PF_Marker",
+   "PF_Plaza",
+   "PF_Railing",
+   "PF_Roof",
+   "PF_Slab",
+   "PF_Stage",
+   "PF_Stair",
+   "PF_Steps",
+   "PF_Wall",
+   "PF_Zone_entrance",
+   "PF_Zone_food",
+   "PF_Zone_lift",
+   "PF_Zone_lobby",
+   "PF_Zone_meeting",
+   "PF_Zone_office",
+   "PF_Zone_room",
+   "PF_Zone_service",
+   "PF_Zone_stair",
+   "PF_Zone_toilet"
+  ],
+  "meshesWithoutMaterial": [],
+  "objectsWithNonUnitScale": [],
+  "bboxMin_m": [
+   -21.51,
+   4.4,
+   -9.72
+  ],
+  "bboxMax_m": [
+   36.48,
+   32.0,
+   47.66
+  ],
+  "bboxSize_m": [
+   57.99,
+   27.6,
+   57.38
+  ],
+  "markers": {
+   "PF_Origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "PF_Marker_PlanRight_10m": [
+    -10.0,
+    -0.0,
+    0.0
+   ],
+   "PF_Marker_PlanUp_10m": [
+    0.0,
+    -0.0,
+    10.0
+   ],
+   "PF_Marker_Up_10m": [
+    -0.0,
+    10.0,
+    0.0
+   ],
+   "PF_TrueNorth_10m": [
+    9.962,
+    0.0,
+    0.872
+   ]
+  },
+  "rootPresent": true,
+  "objectsWithPfProps": 205,
+  "floors": [
+   "AB_2F",
+   "AB_FC",
+   "AB_FF",
+   "AB_GF"
+  ],
+  "navAnchors": 114,
+  "roomZones": 51
+ },
+ {
+  "file": "PathFinder_Teaching_Block.fbx",
+  "sizeMB": 2.09,
+  "header": {
+   "fbxVersion": 7400,
+   "UpAxis": 1,
+   "UpAxisSign": 1,
+   "FrontAxis": 2,
+   "FrontAxisSign": -1,
+   "CoordAxis": 0,
+   "CoordAxisSign": -1,
+   "UnitScaleFactor": 100.0,
+   "OriginalUnitScaleFactor": 100.0
+  },
+  "objects": 551,
+  "meshes": 236,
+  "empties": 315,
+  "triangles": 80488,
+  "vertices": 45526,
+  "materials": [
+   "PF_Glass",
+   "PF_Lawn",
+   "PF_Marker",
+   "PF_Railing",
+   "PF_Roof",
+   "PF_Slab",
+   "PF_Stair",
+   "PF_Steps",
+   "PF_Wall",
+   "PF_Zone_classroom",
+   "PF_Zone_lift",
+   "PF_Zone_lobby",
+   "PF_Zone_open",
+   "PF_Zone_service",
+   "PF_Zone_staff",
+   "PF_Zone_toilet"
+  ],
+  "meshesWithoutMaterial": [],
+  "objectsWithNonUnitScale": [],
+  "bboxMin_m": [
+   -21.49,
+   -0.85,
+   -52.59
+  ],
+  "bboxMax_m": [
+   36.48,
+   24.16,
+   36.28
+  ],
+  "bboxSize_m": [
+   57.98,
+   25.01,
+   88.87
+  ],
+  "markers": {
+   "PF_Origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "PF_Marker_PlanRight_10m": [
+    -10.0,
+    -0.0,
+    0.0
+   ],
+   "PF_Marker_PlanUp_10m": [
+    0.0,
+    -0.0,
+    10.0
+   ],
+   "PF_Marker_Up_10m": [
+    -0.0,
+    10.0,
+    0.0
+   ],
+   "PF_TrueNorth_10m": [
+    9.962,
+    0.0,
+    0.872
+   ]
+  },
+  "rootPresent": true,
+  "objectsWithPfProps": 546,
+  "floors": [
+   "TB_1F",
+   "TB_2F",
+   "TB_GF",
+   "TB_LG01",
+   "TB_LG02",
+   "TB_LG03"
+  ],
+  "navAnchors": 300,
+  "roomZones": 194
+ }
+]

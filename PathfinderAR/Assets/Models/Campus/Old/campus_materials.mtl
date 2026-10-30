@@ -1,0 +1,28 @@
+# PathFinder Campus Materials
+newmtl CampusWall
+Kd 0.88 0.90 0.94
+Ka 0.20 0.22 0.25
+Ks 0.10 0.10 0.10
+Ns 10.0
+d 1.0
+
+newmtl CampusFloor
+Kd 0.35 0.38 0.42
+Ka 0.15 0.15 0.15
+Ks 0.15 0.15 0.15
+Ns 20.0
+d 1.0
+
+newmtl AdminAccent
+Kd 0.15 0.55 0.92
+Ka 0.10 0.25 0.45
+Ks 0.40 0.40 0.40
+Ns 30.0
+d 1.0
+
+newmtl TeachingAccent
+Kd 0.25 0.75 0.50
+Ka 0.10 0.35 0.20
+Ks 0.30 0.30 0.30
+Ns 25.0
+d 1.0
